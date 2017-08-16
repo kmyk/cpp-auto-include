@@ -1,0 +1,35 @@
+repeat:
+    grep: true
+    string: '#define repeat(i, n) for (int i = 0; (i) < int(n); ++(i))'
+repeat_from:
+    grep: true
+    string: '#define repeat_from(i, m, n) for (int i = (m); (i) < int(n); ++(i))'
+repeat_reverse:
+    grep: true
+    string: '#define repeat_reverse(i, n) for (int i = (n)-1; (i) >= 0; --(i))'
+repeat_from_reverse:
+    grep: true
+    string: '#define repeat_from_reverse(i, m, n) for (int i = (n)-1; (i) >= int(m); --(i))'
+whole:
+    '#define whole(x) begin(x), end(x)'
+unittest:
+    grep: true
+    string: |-
+        #define unittest_name_helper(counter) unittest_ ## counter
+        #define unittest_name(counter) unittest_name_helper(counter)
+        #define unittest __attribute__((constructor)) void unittest_name(__COUNTER__) ()
+ll:
+    'using ll = long long;'
+setmin:
+    'template <class T> inline void setmax(T & a, T const & b) { a = max(a, b); }'
+setmax:
+    'template <class T> inline void setmin(T & a, T const & b) { a = min(a, b); }'
+vectors: |-
+    template <typename X, typename T> auto vectors(X x, T a) { return vector<T>(x, a); }
+    template <typename X, typename Y, typename Z, typename... Zs> auto vectors(X x, Y y, Z z, Zs... zs) { auto cont = vectors(y, z, zs...); return vector<decltype(cont)>(x, cont); }
+dy:
+    'const int dy[] = { -1, 1, 0, 0 };'
+dx:
+    'const int dx[] = { 0, 0, 1, -1 };'
+is_on_field:
+    'bool is_on_field(int y, int x, int h, int w) { return 0 <= y and y < h and 0 <= x and x < w; }'

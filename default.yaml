@@ -1,0 +1,3109 @@
+ATOMIC_BOOL_LOCK_FREE: '#include <stdatomic.h>'
+ATOMIC_CHAR16_T_LOCK_FREE: '#include <stdatomic.h>'
+ATOMIC_CHAR32_T_LOCK_FREE: '#include <stdatomic.h>'
+ATOMIC_CHAR_LOCK_FREE: '#include <stdatomic.h>'
+ATOMIC_FLAG_INIT: '#include <stdatomic.h>'
+ATOMIC_INT_LOCK_FREE: '#include <stdatomic.h>'
+ATOMIC_LLONG_LOCK_FREE: '#include <stdatomic.h>'
+ATOMIC_LONG_LOCK_FREE: '#include <stdatomic.h>'
+ATOMIC_POINTER_LOCK_FREE: '#include <stdatomic.h>'
+ATOMIC_SHORT_LOCK_FREE: '#include <stdatomic.h>'
+ATOMIC_VAR_INIT: '#include <stdatomic.h>'
+ATOMIC_WCHAR_T_LOCK_FREE: '#include <stdatomic.h>'
+BUFSIZ: '#include <cstdio>'
+CHAR_BIT: '#include <climits>'
+CHAR_MAX: '#include <climits>'
+CHAR_MIN: '#include <climits>'
+CLOCKS_PER_SEC: '#include <ctime>'
+CMPLX: '#include <complex.h>'
+CMPLXF: '#include <complex.h>'
+CMPLXL: '#include <complex.h>'
+Constants: '#include <cwctype>'
+Conversion: '#include <ctime>'
+DBL_DIG: '#include <cfloat>'
+DBL_EPSILON: '#include <cfloat>'
+DBL_HAS_SUBNORM: '#include <cfloat>'
+DBL_MANT_DIG: '#include <cfloat>'
+DBL_MAX: '#include <cfloat>'
+DBL_MAX_10_EXP: '#include <cfloat>'
+DBL_MAX_EXP: '#include <cfloat>'
+DBL_MIN: '#include <cfloat>'
+DBL_MIN_10_EXP: '#include <cfloat>'
+DBL_MIN_EXP: '#include <cfloat>'
+DECIMAL_DIG: '#include <cfloat>'
+ECMAScript:
+  namespace: std::regex_constants
+EDOM: '#include <cerrno>'
+EILSEQ: '#include <cerrno>'
+EOF: '#include <cstdio>'
+ERANGE: '#include <cerrno>'
+EXIT_FAILURE: '#include <cstdlib>'
+EXIT_SUCCESS: '#include <cstdlib>'
+FE_ALL_EXCEPT: '#include <cfenv>'
+FE_DFL_ENV: '#include <cfenv>'
+FE_DIVBYZERO: '#include <cfenv>'
+FE_DOWNWARD: '#include <cfenv>'
+FE_INEXACT: '#include <cfenv>'
+FE_INVALID: '#include <cfenv>'
+FE_OVERFLOW: '#include <cfenv>'
+FE_TONEAREST: '#include <cfenv>'
+FE_TOWARDZERO: '#include <cfenv>'
+FE_UNDERFLOW: '#include <cfenv>'
+FE_UPWARD: '#include <cfenv>'
+FILE: '#include <cstdio>'
+FILENAME_MAX: '#include <cstdio>'
+FLT_DIG: '#include <cfloat>'
+FLT_EPSILON: '#include <cfloat>'
+FLT_EVAL_METHOD: '#include <cfloat>'
+FLT_HAS_SUBNORM: '#include <cfloat>'
+FLT_MANT_DIG: '#include <cfloat>'
+FLT_MAX: '#include <cfloat>'
+FLT_MAX_10_EXP: '#include <cfloat>'
+FLT_MAX_EXP: '#include <cfloat>'
+FLT_MIN: '#include <cfloat>'
+FLT_MIN_10_EXP: '#include <cfloat>'
+FLT_MIN_EXP: '#include <cfloat>'
+FLT_RADIX: '#include <cfloat>'
+FLT_ROUNDS: '#include <cfloat>'
+FOPEN_MAX: '#include <cstdio>'
+FP_FAST_FMA: '#include <cmath>'
+FP_FAST_FMAF: '#include <cmath>'
+FP_FAST_FMAL: '#include <cmath>'
+FP_ILOGB0: '#include <cmath>'
+FP_ILOGBNAN: '#include <cmath>'
+FP_INFINITE: '#include <cmath>'
+FP_NAN: '#include <cmath>'
+FP_NORMAL: '#include <cmath>'
+FP_SUBNORMAL: '#include <cmath>'
+FP_ZERO: '#include <cmath>'
+Functions: '#include <cuchar>'
+HUGE_VAL: '#include <cmath>'
+HUGE_VALF: '#include <cmath>'
+HUGE_VALL: '#include <cmath>'
+I: '#include <complex.h>'
+INFINITY: '#include <cmath>'
+INTMAX_C: '#include <cstdint>'
+INTMAX_MAX: '#include <cstdint>'
+INTMAX_MIN: '#include <cstdint>'
+INTN_C: '#include <cstdint>'
+INTN_MAX: '#include <cstdint>'
+INTN_MIN: '#include <cstdint>'
+INTPTR_MAX: '#include <cstdint>'
+INTPTR_MIN: '#include <cstdint>'
+INT_FASTN_MAX: '#include <cstdint>'
+INT_FASTN_MIN: '#include <cstdint>'
+INT_LEASTN_MAX: '#include <cstdint>'
+INT_LEASTN_MIN: '#include <cstdint>'
+INT_MAX: '#include <climits>'
+INT_MIN: '#include <climits>'
+LC_ALL: '#include <clocale>'
+LC_COLLATE: '#include <clocale>'
+LC_CTYPE: '#include <clocale>'
+LC_MONETARY: '#include <clocale>'
+LC_NUMERIC: '#include <clocale>'
+LC_TIME: '#include <clocale>'
+LDBL_DIG: '#include <cfloat>'
+LDBL_EPSILON: '#include <cfloat>'
+LDBL_HAS_SUBNORM: '#include <cfloat>'
+LDBL_MANT_DIG: '#include <cfloat>'
+LDBL_MAX: '#include <cfloat>'
+LDBL_MAX_10_EXP: '#include <cfloat>'
+LDBL_MAX_EXP: '#include <cfloat>'
+LDBL_MIN: '#include <cfloat>'
+LDBL_MIN_10_EXP: '#include <cfloat>'
+LDBL_MIN_EXP: '#include <cfloat>'
+LLONG_MAX: '#include <climits>'
+LLONG_MIN: '#include <climits>'
+LONG_MAX: '#include <climits>'
+LONG_MIN: '#include <climits>'
+L_tmpnam: '#include <cstdio>'
+MATH_ERREXCEPT: '#include <cmath>'
+MATH_ERRNO: '#include <cmath>'
+MB_CUR_MAX: '#include <cstdlib>'
+MB_LEN_MAX: '#include <climits>'
+NAN: '#include <cmath>'
+'NULL': '#include <cstddef>'
+PRIX16: '#include <cinttypes>'
+PRIX32: '#include <cinttypes>'
+PRIX64: '#include <cinttypes>'
+PRIX8: '#include <cinttypes>'
+PRIXFAST16: '#include <cinttypes>'
+PRIXFAST32: '#include <cinttypes>'
+PRIXFAST64: '#include <cinttypes>'
+PRIXFAST8: '#include <cinttypes>'
+PRIXLEAST16: '#include <cinttypes>'
+PRIXLEAST32: '#include <cinttypes>'
+PRIXLEAST64: '#include <cinttypes>'
+PRIXLEAST8: '#include <cinttypes>'
+PRIXMAX: '#include <cinttypes>'
+PRIXPTR: '#include <cinttypes>'
+PRId16: '#include <cinttypes>'
+PRId32: '#include <cinttypes>'
+PRId64: '#include <cinttypes>'
+PRId8: '#include <cinttypes>'
+PRIdFAST16: '#include <cinttypes>'
+PRIdFAST32: '#include <cinttypes>'
+PRIdFAST64: '#include <cinttypes>'
+PRIdFAST8: '#include <cinttypes>'
+PRIdLEAST16: '#include <cinttypes>'
+PRIdLEAST32: '#include <cinttypes>'
+PRIdLEAST64: '#include <cinttypes>'
+PRIdLEAST8: '#include <cinttypes>'
+PRIdMAX: '#include <cinttypes>'
+PRIdPTR: '#include <cinttypes>'
+PRIi16: '#include <cinttypes>'
+PRIi32: '#include <cinttypes>'
+PRIi64: '#include <cinttypes>'
+PRIi8: '#include <cinttypes>'
+PRIiFAST16: '#include <cinttypes>'
+PRIiFAST32: '#include <cinttypes>'
+PRIiFAST64: '#include <cinttypes>'
+PRIiFAST8: '#include <cinttypes>'
+PRIiLEAST16: '#include <cinttypes>'
+PRIiLEAST32: '#include <cinttypes>'
+PRIiLEAST64: '#include <cinttypes>'
+PRIiLEAST8: '#include <cinttypes>'
+PRIiMAX: '#include <cinttypes>'
+PRIiPTR: '#include <cinttypes>'
+PRIo16: '#include <cinttypes>'
+PRIo32: '#include <cinttypes>'
+PRIo64: '#include <cinttypes>'
+PRIo8: '#include <cinttypes>'
+PRIoFAST16: '#include <cinttypes>'
+PRIoFAST32: '#include <cinttypes>'
+PRIoFAST64: '#include <cinttypes>'
+PRIoFAST8: '#include <cinttypes>'
+PRIoLEAST16: '#include <cinttypes>'
+PRIoLEAST32: '#include <cinttypes>'
+PRIoLEAST64: '#include <cinttypes>'
+PRIoLEAST8: '#include <cinttypes>'
+PRIoMAX: '#include <cinttypes>'
+PRIoPTR: '#include <cinttypes>'
+PRIu16: '#include <cinttypes>'
+PRIu32: '#include <cinttypes>'
+PRIu64: '#include <cinttypes>'
+PRIu8: '#include <cinttypes>'
+PRIuFAST16: '#include <cinttypes>'
+PRIuFAST32: '#include <cinttypes>'
+PRIuFAST64: '#include <cinttypes>'
+PRIuFAST8: '#include <cinttypes>'
+PRIuLEAST16: '#include <cinttypes>'
+PRIuLEAST32: '#include <cinttypes>'
+PRIuLEAST64: '#include <cinttypes>'
+PRIuLEAST8: '#include <cinttypes>'
+PRIuMAX: '#include <cinttypes>'
+PRIuPTR: '#include <cinttypes>'
+PRIx16: '#include <cinttypes>'
+PRIx32: '#include <cinttypes>'
+PRIx64: '#include <cinttypes>'
+PRIx8: '#include <cinttypes>'
+PRIxFAST16: '#include <cinttypes>'
+PRIxFAST32: '#include <cinttypes>'
+PRIxFAST64: '#include <cinttypes>'
+PRIxFAST8: '#include <cinttypes>'
+PRIxLEAST16: '#include <cinttypes>'
+PRIxLEAST32: '#include <cinttypes>'
+PRIxLEAST64: '#include <cinttypes>'
+PRIxLEAST8: '#include <cinttypes>'
+PRIxMAX: '#include <cinttypes>'
+PRIxPTR: '#include <cinttypes>'
+PTRDIFF_MAX: '#include <cstdint>'
+PTRDIFF_MIN: '#include <cstdint>'
+RAND_MAX: '#include <cstdlib>'
+SCHAR_MAX: '#include <climits>'
+SCHAR_MIN: '#include <climits>'
+SCNX16: '#include <cinttypes>'
+SCNX32: '#include <cinttypes>'
+SCNX64: '#include <cinttypes>'
+SCNX8: '#include <cinttypes>'
+SCNXFAST16: '#include <cinttypes>'
+SCNXFAST32: '#include <cinttypes>'
+SCNXFAST64: '#include <cinttypes>'
+SCNXFAST8: '#include <cinttypes>'
+SCNXLEAST16: '#include <cinttypes>'
+SCNXLEAST32: '#include <cinttypes>'
+SCNXLEAST64: '#include <cinttypes>'
+SCNXLEAST8: '#include <cinttypes>'
+SCNXMAX: '#include <cinttypes>'
+SCNXPTR: '#include <cinttypes>'
+SCNd16: '#include <cinttypes>'
+SCNd32: '#include <cinttypes>'
+SCNd64: '#include <cinttypes>'
+SCNd8: '#include <cinttypes>'
+SCNdFAST16: '#include <cinttypes>'
+SCNdFAST32: '#include <cinttypes>'
+SCNdFAST64: '#include <cinttypes>'
+SCNdFAST8: '#include <cinttypes>'
+SCNdLEAST16: '#include <cinttypes>'
+SCNdLEAST32: '#include <cinttypes>'
+SCNdLEAST64: '#include <cinttypes>'
+SCNdLEAST8: '#include <cinttypes>'
+SCNdMAX: '#include <cinttypes>'
+SCNdPTR: '#include <cinttypes>'
+SCNi16: '#include <cinttypes>'
+SCNi32: '#include <cinttypes>'
+SCNi64: '#include <cinttypes>'
+SCNi8: '#include <cinttypes>'
+SCNiFAST16: '#include <cinttypes>'
+SCNiFAST32: '#include <cinttypes>'
+SCNiFAST64: '#include <cinttypes>'
+SCNiFAST8: '#include <cinttypes>'
+SCNiLEAST16: '#include <cinttypes>'
+SCNiLEAST32: '#include <cinttypes>'
+SCNiLEAST64: '#include <cinttypes>'
+SCNiLEAST8: '#include <cinttypes>'
+SCNiMAX: '#include <cinttypes>'
+SCNiPTR: '#include <cinttypes>'
+SCNo16: '#include <cinttypes>'
+SCNo32: '#include <cinttypes>'
+SCNo64: '#include <cinttypes>'
+SCNo8: '#include <cinttypes>'
+SCNoFAST16: '#include <cinttypes>'
+SCNoFAST32: '#include <cinttypes>'
+SCNoFAST64: '#include <cinttypes>'
+SCNoFAST8: '#include <cinttypes>'
+SCNoLEAST16: '#include <cinttypes>'
+SCNoLEAST32: '#include <cinttypes>'
+SCNoLEAST64: '#include <cinttypes>'
+SCNoLEAST8: '#include <cinttypes>'
+SCNoMAX: '#include <cinttypes>'
+SCNoPTR: '#include <cinttypes>'
+SCNu16: '#include <cinttypes>'
+SCNu32: '#include <cinttypes>'
+SCNu64: '#include <cinttypes>'
+SCNu8: '#include <cinttypes>'
+SCNuFAST16: '#include <cinttypes>'
+SCNuFAST32: '#include <cinttypes>'
+SCNuFAST64: '#include <cinttypes>'
+SCNuFAST8: '#include <cinttypes>'
+SCNuLEAST16: '#include <cinttypes>'
+SCNuLEAST32: '#include <cinttypes>'
+SCNuLEAST64: '#include <cinttypes>'
+SCNuLEAST8: '#include <cinttypes>'
+SCNuMAX: '#include <cinttypes>'
+SCNuPTR: '#include <cinttypes>'
+SCNx16: '#include <cinttypes>'
+SCNx32: '#include <cinttypes>'
+SCNx64: '#include <cinttypes>'
+SCNx8: '#include <cinttypes>'
+SCNxFAST16: '#include <cinttypes>'
+SCNxFAST32: '#include <cinttypes>'
+SCNxFAST64: '#include <cinttypes>'
+SCNxFAST8: '#include <cinttypes>'
+SCNxLEAST16: '#include <cinttypes>'
+SCNxLEAST32: '#include <cinttypes>'
+SCNxLEAST64: '#include <cinttypes>'
+SCNxLEAST8: '#include <cinttypes>'
+SCNxMAX: '#include <cinttypes>'
+SCNxPTR: '#include <cinttypes>'
+SHRT_MAX: '#include <climits>'
+SHRT_MIN: '#include <climits>'
+SIGABRT: '#include <csignal>'
+SIGFPE: '#include <csignal>'
+SIGILL: '#include <csignal>'
+SIGINT: '#include <csignal>'
+SIGSEGV: '#include <csignal>'
+SIGTERM: '#include <csignal>'
+SIG_ATOMIC_MAX: '#include <cstdint>'
+SIG_ATOMIC_MIN: '#include <cstdint>'
+SIG_DFL: '#include <csignal>'
+SIG_ERR: '#include <csignal>'
+SIG_IGN: '#include <csignal>'
+SIZE_MAX: '#include <cstdint>'
+TMP_MAX: '#include <cstdio>'
+TSS_DTOR_ITERATIONS: '#include <threads.h>'
+UCHAR_MAX: '#include <climits>'
+UINTMAX_C: '#include <cstdint>'
+UINTMAX_MAX: '#include <cstdint>'
+UINTN_C: '#include <cstdint>'
+UINTN_MAX: '#include <cstdint>'
+UINTPTR_MAX: '#include <cstdint>'
+UINT_FASTN_MAX: '#include <cstdint>'
+UINT_LEASTN_MAX: '#include <cstdint>'
+UINT_MAX: '#include <climits>'
+ULLONG_MAX: '#include <climits>'
+ULONG_MAX: '#include <climits>'
+USHRT_MAX: '#include <climits>'
+WCHAR_MAX: '#include <cwchar>'
+WCHAR_MIN: '#include <cwchar>'
+WEOF: '#include <cwchar>'
+WINT_MAX: '#include <cstdint>'
+WINT_MIN: '#include <cstdint>'
+_1:
+  namespace: std::placeholders
+_2:
+  namespace: std::placeholders
+_3:
+  namespace: std::placeholders
+_4:
+  namespace: std::placeholders
+_5:
+  namespace: std::placeholders
+_Complex_I: '#include <complex.h>'
+_Exit: '#include <cstdlib>'
+_Imaginary_I: '#include <complex.h>'
+__STD_UTF_16__: '#include <cuchar>'
+__STD_UTF_32__: '#include <cuchar>'
+__alignas_is_defined: '#include <cstdalign>'
+__alignof_is_defined: '#include <cstdalign>'
+__bool_true_false_are_defined: '#include <cstdbool>'
+abort: '#include <cstdlib>'
+abs: '#include <cstdlib>'
+accumulate:
+  namespace: std
+acos: '#include <cmath>'
+acosh: '#include <cmath>'
+add_const:
+  namespace: std
+add_cv:
+  namespace: std
+add_lvalue_reference:
+  namespace: std
+add_pointer:
+  namespace: std
+add_rvalue_reference:
+  namespace: std
+add_volatile:
+  namespace: std
+addressof:
+  namespace: std
+adjacent_difference:
+  namespace: std
+adjacent_find:
+  namespace: std
+adopt_lock_t:
+  namespace: std
+advance:
+  namespace: std
+align:
+  namespace: std
+alignas: '#include <cstdalign>'
+aligned_storage:
+  namespace: std
+aligned_union:
+  namespace: std
+alignment_of:
+  namespace: std
+alignof: '#include <cstdalign>'
+all_of:
+  namespace: std
+allocate_shared:
+  namespace: std
+allocator:
+  namespace: std
+allocator_arg:
+  namespace: std
+allocator_arg_t:
+  namespace: std
+allocator_traits:
+  namespace: std
+and: '#include <ciso646>'
+and_eq: '#include <ciso646>'
+any_of:
+  namespace: std
+arg:
+  namespace: std
+array:
+  namespace: std
+asctime: '#include <ctime>'
+asin: '#include <cmath>'
+asinh: '#include <cmath>'
+assert: '#include <cassert>'
+async:
+  namespace: std
+at_quick_exit: '#include <cstdlib>'
+atan: '#include <cmath>'
+atan2: '#include <cmath>'
+atanh: '#include <cmath>'
+atexit: '#include <cstdlib>'
+atof: '#include <cstdlib>'
+atoi: '#include <cstdlib>'
+atol: '#include <cstdlib>'
+atoll: '#include <cstdlib>'
+atomic:
+  namespace: std
+atomic_bool: '#include <stdatomic.h>'
+atomic_char: '#include <stdatomic.h>'
+atomic_char16_t: '#include <stdatomic.h>'
+atomic_char32_t: '#include <stdatomic.h>'
+atomic_compare_exchange_strong: '#include <stdatomic.h>'
+atomic_compare_exchange_strong_explicit: '#include <stdatomic.h>'
+atomic_compare_exchange_weak: '#include <stdatomic.h>'
+atomic_compare_exchange_weak_explicit: '#include <stdatomic.h>'
+atomic_exchange: '#include <stdatomic.h>'
+atomic_exchange_explicit: '#include <stdatomic.h>'
+atomic_fetch_add: '#include <stdatomic.h>'
+atomic_fetch_add_explicit: '#include <stdatomic.h>'
+atomic_fetch_and: '#include <stdatomic.h>'
+atomic_fetch_and_explicit: '#include <stdatomic.h>'
+atomic_fetch_or: '#include <stdatomic.h>'
+atomic_fetch_or_explicit: '#include <stdatomic.h>'
+atomic_fetch_sub: '#include <stdatomic.h>'
+atomic_fetch_sub_explicit: '#include <stdatomic.h>'
+atomic_fetch_xor: '#include <stdatomic.h>'
+atomic_fetch_xor_explicit: '#include <stdatomic.h>'
+atomic_flag: '#include <stdatomic.h>'
+atomic_flag_clear: '#include <stdatomic.h>'
+atomic_flag_clear_explicit: '#include <stdatomic.h>'
+atomic_flag_test_and_set: '#include <stdatomic.h>'
+atomic_flag_test_and_set_explicit: '#include <stdatomic.h>'
+atomic_init: '#include <stdatomic.h>'
+atomic_int: '#include <stdatomic.h>'
+atomic_int_fast16_t: '#include <stdatomic.h>'
+atomic_int_fast32_t: '#include <stdatomic.h>'
+atomic_int_fast64_t: '#include <stdatomic.h>'
+atomic_int_fast8_t: '#include <stdatomic.h>'
+atomic_int_least16_t: '#include <stdatomic.h>'
+atomic_int_least32_t: '#include <stdatomic.h>'
+atomic_int_least64_t: '#include <stdatomic.h>'
+atomic_int_least8_t: '#include <stdatomic.h>'
+atomic_intmax_t: '#include <stdatomic.h>'
+atomic_intptr_t: '#include <stdatomic.h>'
+atomic_is_lock_free: '#include <stdatomic.h>'
+atomic_llong: '#include <stdatomic.h>'
+atomic_load: '#include <stdatomic.h>'
+atomic_load_explicit: '#include <stdatomic.h>'
+atomic_long: '#include <stdatomic.h>'
+atomic_ptrdiff_t: '#include <stdatomic.h>'
+atomic_schar: '#include <stdatomic.h>'
+atomic_short: '#include <stdatomic.h>'
+atomic_signal_fence: '#include <stdatomic.h>'
+atomic_size_t: '#include <stdatomic.h>'
+atomic_store: '#include <stdatomic.h>'
+atomic_store_explicit: '#include <stdatomic.h>'
+atomic_thread_fence: '#include <stdatomic.h>'
+atomic_uchar: '#include <stdatomic.h>'
+atomic_uint: '#include <stdatomic.h>'
+atomic_uint_fast16_t: '#include <stdatomic.h>'
+atomic_uint_fast32_t: '#include <stdatomic.h>'
+atomic_uint_fast64_t: '#include <stdatomic.h>'
+atomic_uint_fast8_t: '#include <stdatomic.h>'
+atomic_uint_least16_t: '#include <stdatomic.h>'
+atomic_uint_least32_t: '#include <stdatomic.h>'
+atomic_uint_least64_t: '#include <stdatomic.h>'
+atomic_uint_least8_t: '#include <stdatomic.h>'
+atomic_uintmax_t: '#include <stdatomic.h>'
+atomic_uintptr_t: '#include <stdatomic.h>'
+atomic_ullong: '#include <stdatomic.h>'
+atomic_ulong: '#include <stdatomic.h>'
+atomic_ushort: '#include <stdatomic.h>'
+atomic_wchar_t: '#include <stdatomic.h>'
+auto_ptr:
+  namespace: std
+auto_ptr_ref:
+  namespace: std
+awk:
+  namespace: std::regex_constants
+back_insert_iterator:
+  namespace: std
+back_inserter:
+  namespace: std
+bad_alloc:
+  namespace: std
+bad_array_new_length:
+  namespace: std
+bad_cast:
+  namespace: std
+bad_exception:
+  namespace: std
+bad_function_call:
+  namespace: std
+bad_typeid:
+  namespace: std
+basic:
+  namespace: std::regex_constants
+basic_filebuf:
+  namespace: std
+basic_fstream:
+  namespace: std
+basic_ifstream:
+  namespace: std
+basic_ios:
+  namespace: std
+basic_iostream:
+  namespace: std
+basic_istream:
+  namespace: std
+basic_istringstream:
+  namespace: std
+basic_ofstream:
+  namespace: std
+basic_ostream:
+  namespace: std
+basic_ostringstream:
+  namespace: std
+basic_regex:
+  namespace: std
+basic_streambuf:
+  namespace: std
+basic_string:
+  namespace: std
+basic_stringbuf:
+  namespace: std
+basic_stringstream:
+  namespace: std
+begin:
+  namespace: std
+bernoulli_distribution:
+  namespace: std
+bidirectional_iterator_tag:
+  namespace: std
+binary_negate:
+  namespace: std
+binary_search:
+  namespace: std
+bind:
+  namespace: std
+binomial_distribution:
+  namespace: std
+bit_and:
+  namespace: std
+bit_or:
+  namespace: std
+bit_xor:
+  namespace: std
+bitand: '#include <ciso646>'
+bitor: '#include <ciso646>'
+bitset:
+  namespace: std
+bool: '#include <cstdbool>'
+boolalpha:
+  namespace: std
+bsearch: '#include <cstdlib>'
+btowc: '#include <cwchar>'
+c16rtomb: '#include <cuchar>'
+c32rtomb: '#include <cuchar>'
+cabs: '#include <complex.h>'
+cabsf: '#include <complex.h>'
+cabsl: '#include <complex.h>'
+cacos: '#include <complex.h>'
+cacosf: '#include <complex.h>'
+cacosh: '#include <complex.h>'
+cacoshf: '#include <complex.h>'
+cacoshl: '#include <complex.h>'
+cacosl: '#include <complex.h>'
+call_once: '#include <threads.h>'
+calloc: '#include <cstdlib>'
+carg: '#include <complex.h>'
+cargf: '#include <complex.h>'
+cargl: '#include <complex.h>'
+casin: '#include <complex.h>'
+casinf: '#include <complex.h>'
+casinh: '#include <complex.h>'
+casinhf: '#include <complex.h>'
+casinhl: '#include <complex.h>'
+casinl: '#include <complex.h>'
+catan: '#include <complex.h>'
+catanf: '#include <complex.h>'
+catanh: '#include <complex.h>'
+catanhf: '#include <complex.h>'
+catanhl: '#include <complex.h>'
+catanl: '#include <complex.h>'
+cauchy_distribution:
+  namespace: std
+cbegin:
+  namespace: std
+cbrt: '#include <cmath>'
+ccos: '#include <complex.h>'
+ccosf: '#include <complex.h>'
+ccosh: '#include <complex.h>'
+ccoshf: '#include <complex.h>'
+ccoshl: '#include <complex.h>'
+ccosl: '#include <complex.h>'
+ceil: '#include <cmath>'
+cend:
+  namespace: std
+cerr:
+  namespace: std
+cexp: '#include <complex.h>'
+cexpf: '#include <complex.h>'
+cexpl: '#include <complex.h>'
+char_traits:
+  namespace: std
+chi_squared_distribution:
+  namespace: std
+chrono::duration:
+  namespace: std
+chrono::duration_cast:
+  namespace: std
+chrono::duration_values:
+  namespace: std
+chrono::high_resolution_clock:
+  namespace: std
+chrono::hours:
+  namespace: std
+chrono::microseconds:
+  namespace: std
+chrono::milliseconds:
+  namespace: std
+chrono::minutes:
+  namespace: std
+chrono::nanoseconds:
+  namespace: std
+chrono::seconds:
+  namespace: std
+chrono::steady_clock:
+  namespace: std
+chrono::system_clock:
+  namespace: std
+chrono::time_point:
+  namespace: std
+chrono::time_point_cast:
+  namespace: std
+chrono::treat_as_floating_point:
+  namespace: std
+cimag: '#include <complex.h>'
+cimagf: '#include <complex.h>'
+cimagl: '#include <complex.h>'
+cin:
+  namespace: std
+clearerr: '#include <cstdio>'
+clock: '#include <ctime>'
+clock_t: '#include <ctime>'
+clog: '#include <complex.h>'
+clogf: '#include <complex.h>'
+clogl: '#include <complex.h>'
+cmatch:
+  namespace: std
+cnd_broadcast: '#include <threads.h>'
+cnd_destroy: '#include <threads.h>'
+cnd_init: '#include <threads.h>'
+cnd_signal: '#include <threads.h>'
+cnd_t: '#include <threads.h>'
+cnd_timedwait: '#include <threads.h>'
+cnd_wait: '#include <threads.h>'
+codecvt:
+  namespace: std
+codecvt_base:
+  namespace: std
+codecvt_byname:
+  namespace: std
+codecvt_mode:
+  namespace: std
+codecvt_utf16:
+  namespace: std
+codecvt_utf8:
+  namespace: std
+codecvt_utf8_utf16:
+  namespace: std
+collate:
+  namespace: std
+collate_byname:
+  namespace: std
+common_type:
+  namespace: std
+compl: '#include <ciso646>'
+complex: '#include <complex.h>'
+condition_variable:
+  namespace: std
+condition_variable_any:
+  namespace: std
+conditional:
+  namespace: std
+conj: '#include <complex.h>'
+conjf: '#include <complex.h>'
+conjl: '#include <complex.h>'
+const_pointer_cast:
+  namespace: std
+copy:
+  namespace: std
+copy_backward:
+  namespace: std
+copy_if:
+  namespace: std
+copy_n:
+  namespace: std
+copysign: '#include <cmath>'
+cos: '#include <cmath>'
+cosh: '#include <cmath>'
+count:
+  namespace: std
+count_if:
+  namespace: std
+cout:
+  namespace: std
+cpow: '#include <complex.h>'
+cpowf: '#include <complex.h>'
+cpowl: '#include <complex.h>'
+cproj: '#include <complex.h>'
+cprojf: '#include <complex.h>'
+cprojl: '#include <complex.h>'
+crbegin:
+  namespace: std
+creal: '#include <complex.h>'
+crealf: '#include <complex.h>'
+creall: '#include <complex.h>'
+cref:
+  namespace: std
+crend:
+  namespace: std
+csin: '#include <complex.h>'
+csinf: '#include <complex.h>'
+csinh: '#include <complex.h>'
+csinhf: '#include <complex.h>'
+csinhl: '#include <complex.h>'
+csinl: '#include <complex.h>'
+csqrt: '#include <complex.h>'
+csqrtf: '#include <complex.h>'
+csqrtl: '#include <complex.h>'
+csub_match:
+  namespace: std
+ctan: '#include <complex.h>'
+ctanf: '#include <complex.h>'
+ctanh: '#include <complex.h>'
+ctanhf: '#include <complex.h>'
+ctanhl: '#include <complex.h>'
+ctanl: '#include <complex.h>'
+ctime: '#include <ctime>'
+ctype:
+  namespace: std
+ctype_base:
+  namespace: std
+ctype_byname:
+  namespace: std
+current_exception:
+  namespace: std
+cv_status:
+  namespace: std
+dec:
+  namespace: std
+decay:
+  namespace: std
+declare_no_pointers:
+  namespace: std
+declare_reachable:
+  namespace: std
+declval:
+  namespace: std
+default_delete:
+  namespace: std
+default_random_engine:
+  namespace: std
+defer_lock_t:
+  namespace: std
+deque:
+  namespace: std
+difftime: '#include <ctime>'
+discard_block_engine:
+  namespace: std
+discrete_distribution:
+  namespace: std
+distance:
+  namespace: std
+div: '#include <cstdlib>'
+div_t: '#include <cstdlib>'
+divides:
+  namespace: std
+domain_error:
+  namespace: std
+double_t: '#include <cmath>'
+duration:
+  namespace: std::chrono
+duration_cast:
+  namespace: std::chrono
+duration_values:
+  namespace: std::chrono
+dynamic_pointer_cast:
+  namespace: std
+egrep:
+  namespace: std::regex_constants
+enable_if:
+  namespace: std
+enable_shared_from_this:
+  namespace: std
+end:
+  namespace: std
+endl:
+  namespace: std
+ends:
+  namespace: std
+equal:
+  namespace: std
+equal_range:
+  namespace: std
+equal_to:
+  namespace: std
+erf: '#include <cmath>'
+erfc: '#include <cmath>'
+errc:
+  namespace: std
+errno: '#include <cerrno>'
+error_backref:
+  namespace: std::regex_constants
+error_badbrace:
+  namespace: std::regex_constants
+error_badrepeat:
+  namespace: std::regex_constants
+error_brace:
+  namespace: std::regex_constants
+error_brack:
+  namespace: std::regex_constants
+error_category:
+  namespace: std
+error_code:
+  namespace: std
+error_collate:
+  namespace: std::regex_constants
+error_complexity:
+  namespace: std::regex_constants
+error_condition:
+  namespace: std
+error_ctype:
+  namespace: std::regex_constants
+error_escape:
+  namespace: std::regex_constants
+error_paren:
+  namespace: std::regex_constants
+error_range:
+  namespace: std::regex_constants
+error_space:
+  namespace: std::regex_constants
+error_stack:
+  namespace: std::regex_constants
+exception:
+  namespace: std
+exception_ptr:
+  namespace: std
+exit: '#include <cstdlib>'
+exp: '#include <cmath>'
+exp2: '#include <cmath>'
+expm1: '#include <cmath>'
+exponential_distribution:
+  namespace: std
+extended:
+  namespace: std::regex_constants
+extent:
+  namespace: std
+extreme_value_distribution:
+  namespace: std
+fabs: '#include <cmath>'
+'false': '#include <cstdbool>'
+false_type:
+  namespace: std
+fclose: '#include <cstdio>'
+fdim: '#include <cmath>'
+feclearexcept: '#include <cfenv>'
+fegetenv: '#include <cfenv>'
+fegetexceptflag: '#include <cfenv>'
+fegetround: '#include <cfenv>'
+feholdexcept: '#include <cfenv>'
+fenv_t: '#include <cfenv>'
+feof: '#include <cstdio>'
+feraiseexcept: '#include <cfenv>'
+ferror: '#include <cstdio>'
+fesetenv: '#include <cfenv>'
+fesetexceptflag: '#include <cfenv>'
+fesetround: '#include <cfenv>'
+fetestexcept: '#include <cfenv>'
+feupdateenv: '#include <cfenv>'
+fexcept_t: '#include <cfenv>'
+fflush: '#include <cstdio>'
+fgetc: '#include <cstdio>'
+fgetpos: '#include <cstdio>'
+fgets: '#include <cstdio>'
+fgetwc: '#include <cwchar>'
+fgetws: '#include <cwchar>'
+filebuf:
+  namespace: std
+fill:
+  namespace: std
+fill_n:
+  namespace: std
+find:
+  namespace: std
+find_end:
+  namespace: std
+find_first_of:
+  namespace: std
+find_if:
+  namespace: std
+find_if_not:
+  namespace: std
+fisher_f_distribution:
+  namespace: std
+fixed:
+  namespace: std
+float_denorm_style:
+  namespace: std
+float_round_style:
+  namespace: std
+float_t: '#include <cmath>'
+floor: '#include <cmath>'
+flush:
+  namespace: std
+fma: '#include <cmath>'
+fmax: '#include <cmath>'
+fmin: '#include <cmath>'
+fmod: '#include <cmath>'
+fopen: '#include <cstdio>'
+for_each:
+  namespace: std
+format_default:
+  namespace: std::regex_constants
+format_first_only:
+  namespace: std::regex_constants
+format_no_copy:
+  namespace: std::regex_constants
+format_sed:
+  namespace: std::regex_constants
+forward:
+  namespace: std
+forward_as_tuple:
+  namespace: std
+forward_iterator_tag:
+  namespace: std
+forward_list:
+  namespace: std
+fpclassify: '#include <cmath>'
+fpos:
+  namespace: std
+fpos_t: '#include <cstdio>'
+fprintf: '#include <cstdio>'
+fputc: '#include <cstdio>'
+fputs: '#include <cstdio>'
+fputwc: '#include <cwchar>'
+fputws: '#include <cwchar>'
+fread: '#include <cstdio>'
+free: '#include <cstdlib>'
+freopen: '#include <cstdio>'
+frexp: '#include <cmath>'
+front_insert_iterator:
+  namespace: std
+front_inserter:
+  namespace: std
+fscanf: '#include <cstdio>'
+fseek: '#include <cstdio>'
+fsetpos: '#include <cstdio>'
+fstream:
+  namespace: std
+ftell: '#include <cstdio>'
+function:
+  namespace: std
+future:
+  namespace: std
+future_category:
+  namespace: std
+future_errc:
+  namespace: std
+future_error:
+  namespace: std
+future_status:
+  namespace: std
+fwide: '#include <cwchar>'
+fwprintf: '#include <cwchar>'
+fwrite: '#include <cstdio>'
+fwscanf: '#include <cwchar>'
+gamma_distribution:
+  namespace: std
+generate:
+  namespace: std
+generate_canonical:
+  namespace: std
+generate_n:
+  namespace: std
+generic_category:
+  namespace: std
+geometric_distribution:
+  namespace: std
+get:
+  namespace: std
+get_deleter:
+  namespace: std
+get_money:
+  namespace: std
+get_new_handler:
+  namespace: std
+get_pointer_safety:
+  namespace: std
+get_temporary_buffer:
+  namespace: std
+get_terminate:
+  namespace: std
+get_time:
+  namespace: std
+get_unexpected:
+  namespace: std
+getc: '#include <cstdio>'
+getchar: '#include <cstdio>'
+getenv: '#include <cstdlib>'
+gets: '#include <cstdio>'
+getwc: '#include <cwchar>'
+getwchar: '#include <cwchar>'
+gmtime: '#include <ctime>'
+greater:
+  namespace: std
+greater_equal:
+  namespace: std
+grep:
+  namespace: std::regex_constants
+gslice:
+  namespace: std
+gslice_array:
+  namespace: std
+has_facet:
+  namespace: std
+has_virtual_destructor:
+  namespace: std
+hash:
+  namespace: std
+hex:
+  namespace: std
+high_resolution_clock:
+  namespace: std::chrono
+hours:
+  namespace: std::chrono
+hypot: '#include <cmath>'
+icase:
+  namespace: std::regex_constants
+ifstream:
+  namespace: std
+ignore:
+  namespace: std
+ilogb: '#include <cmath>'
+imag:
+  namespace: std
+imaginary: '#include <complex.h>'
+imaxabs: '#include <cinttypes>'
+imaxdiv: '#include <cinttypes>'
+includes:
+  namespace: std
+independent_bits_engine:
+  namespace: std
+indirect_array:
+  namespace: std
+initializer_list:
+  namespace: std
+inner_product:
+  namespace: std
+inplace_merge:
+  namespace: std
+input_iterator_tag:
+  namespace: std
+insert_iterator:
+  namespace: std
+inserter:
+  namespace: std
+int16_t: '#include <cstdint>'
+int32_t: '#include <cstdint>'
+int64_t: '#include <cstdint>'
+int8_t: '#include <cstdint>'
+int_fast16_t: '#include <cstdint>'
+int_fast32_t: '#include <cstdint>'
+int_fast64_t: '#include <cstdint>'
+int_fast8_t: '#include <cstdint>'
+int_least16_t: '#include <cstdint>'
+int_least32_t: '#include <cstdint>'
+int_least64_t: '#include <cstdint>'
+int_least8_t: '#include <cstdint>'
+integral_constant:
+  namespace: std
+internal:
+  namespace: std
+intmax_t: '#include <cstdint>'
+intptr_t: '#include <cstdint>'
+invalid_argument:
+  namespace: std
+io_errc:
+  namespace: std
+ios:
+  namespace: std
+ios_base:
+  namespace: std
+iostream:
+  namespace: std
+iostream_category:
+  namespace: std
+iota:
+  namespace: std
+is_abstract:
+  namespace: std
+is_arithmetic:
+  namespace: std
+is_array:
+  namespace: std
+is_assignable:
+  namespace: std
+is_base_of:
+  namespace: std
+is_bind_expression:
+  namespace: std
+is_class:
+  namespace: std
+is_compound:
+  namespace: std
+is_const:
+  namespace: std
+is_constructible:
+  namespace: std
+is_convertible:
+  namespace: std
+is_copy_assignable:
+  namespace: std
+is_copy_constructible:
+  namespace: std
+is_default_constructible:
+  namespace: std
+is_destructible:
+  namespace: std
+is_empty:
+  namespace: std
+is_enum:
+  namespace: std
+is_error_code_enum:
+  namespace: std
+is_error_condition_enum:
+  namespace: std
+is_floating_point:
+  namespace: std
+is_function:
+  namespace: std
+is_fundamental:
+  namespace: std
+is_heap:
+  namespace: std
+is_heap_until:
+  namespace: std
+is_integral:
+  namespace: std
+is_literal_type:
+  namespace: std
+is_lvalue_reference:
+  namespace: std
+is_member_function_pointer:
+  namespace: std
+is_member_object_pointer:
+  namespace: std
+is_member_pointer:
+  namespace: std
+is_move_assignable:
+  namespace: std
+is_move_constructible:
+  namespace: std
+is_nothrow_assignable:
+  namespace: std
+is_nothrow_constructible:
+  namespace: std
+is_nothrow_copy_assignable:
+  namespace: std
+is_nothrow_copy_constructible:
+  namespace: std
+is_nothrow_default_constructible:
+  namespace: std
+is_nothrow_destructible:
+  namespace: std
+is_nothrow_move_assignable:
+  namespace: std
+is_nothrow_move_constructible:
+  namespace: std
+is_object:
+  namespace: std
+is_partitioned:
+  namespace: std
+is_permutation:
+  namespace: std
+is_placeholder:
+  namespace: std
+is_pod:
+  namespace: std
+is_pointer:
+  namespace: std
+is_polymorphic:
+  namespace: std
+is_reference:
+  namespace: std
+is_rvalue_reference:
+  namespace: std
+is_same:
+  namespace: std
+is_scalar:
+  namespace: std
+is_signed:
+  namespace: std
+is_sorted:
+  namespace: std
+is_sorted_until:
+  namespace: std
+is_standard_layout:
+  namespace: std
+is_trivial:
+  namespace: std
+is_trivially_assignable:
+  namespace: std
+is_trivially_constructible:
+  namespace: std
+is_trivially_copy_assignable:
+  namespace: std
+is_trivially_copy_constructible:
+  namespace: std
+is_trivially_copyable:
+  namespace: std
+is_trivially_default_constructible:
+  namespace: std
+is_trivially_destructible:
+  namespace: std
+is_trivially_move_assignable:
+  namespace: std
+is_trivially_move_constructible:
+  namespace: std
+is_union:
+  namespace: std
+is_unsigned:
+  namespace: std
+is_void:
+  namespace: std
+is_volatile:
+  namespace: std
+isalnum: '#include <cctype>'
+isalpha: '#include <cctype>'
+isblank: '#include <cctype>'
+iscntrl: '#include <cctype>'
+isdigit: '#include <cctype>'
+isfinite: '#include <cmath>'
+isgraph: '#include <cctype>'
+isgreater: '#include <cmath>'
+isgreaterequal: '#include <cmath>'
+isinf: '#include <cmath>'
+isless: '#include <cmath>'
+islessequal: '#include <cmath>'
+islessgreater: '#include <cmath>'
+islower: '#include <cctype>'
+isnan: '#include <cmath>'
+isnormal: '#include <cmath>'
+isprint: '#include <cctype>'
+ispunct: '#include <cctype>'
+isspace: '#include <cctype>'
+istream:
+  namespace: std
+istream_iterator:
+  namespace: std
+istreambuf_iterator:
+  namespace: std
+istringstream:
+  namespace: std
+isunordered: '#include <cmath>'
+isupper: '#include <cctype>'
+iswalnum: '#include <cwctype>'
+iswalpha: '#include <cwctype>'
+iswblank: '#include <cwctype>'
+iswcntrl: '#include <cwctype>'
+iswctype: '#include <cwctype>'
+iswdigit: '#include <cwctype>'
+iswgraph: '#include <cwctype>'
+iswlower: '#include <cwctype>'
+iswprint: '#include <cwctype>'
+iswpunct: '#include <cwctype>'
+iswspace: '#include <cwctype>'
+iswupper: '#include <cwctype>'
+iswxdigit: '#include <cwctype>'
+isxdigit: '#include <cctype>'
+iter_swap:
+  namespace: std
+iterator:
+  namespace: std
+iterator_traits:
+  namespace: std
+jmp_buf: '#include <csetjmp>'
+kill_dependency: '#include <stdatomic.h>'
+knuth_b:
+  namespace: std
+labs: '#include <cstdlib>'
+launch:
+  namespace: std
+lconv: '#include <clocale>'
+ldexp: '#include <cmath>'
+ldiv: '#include <cstdlib>'
+ldiv_t: '#include <cstdlib>'
+left:
+  namespace: std
+length_error:
+  namespace: std
+less:
+  namespace: std
+less_equal:
+  namespace: std
+lexicographical_compare:
+  namespace: std
+lgamma: '#include <cmath>'
+linear_congruential_engine:
+  namespace: std
+list:
+  namespace: std
+llabs: '#include <cstdlib>'
+lldiv: '#include <cstdlib>'
+lldiv_t: '#include <cstdlib>'
+llrint: '#include <cmath>'
+llround: '#include <cmath>'
+locale:
+  namespace: std
+localeconv: '#include <clocale>'
+localtime: '#include <ctime>'
+lock:
+  namespace: std
+lock_guard:
+  namespace: std
+log: '#include <cmath>'
+log10: '#include <cmath>'
+log1p: '#include <cmath>'
+log2: '#include <cmath>'
+logb: '#include <cmath>'
+logic_error:
+  namespace: std
+logical_and:
+  namespace: std
+logical_not:
+  namespace: std
+logical_or:
+  namespace: std
+lognormal_distribution:
+  namespace: std
+longjmp: '#include <csetjmp>'
+lower_bound:
+  namespace: std
+lrint: '#include <cmath>'
+lround: '#include <cmath>'
+make_error_code:
+  namespace: std
+make_error_condition:
+  namespace: std
+make_exception_ptr:
+  namespace: std
+make_heap:
+  namespace: std
+make_move_iterator:
+  namespace: std
+make_pair:
+  namespace: std
+make_reverse_iterator:
+  namespace: std
+make_shared:
+  namespace: std
+make_signed:
+  namespace: std
+make_tuple:
+  namespace: std
+make_unsigned:
+  namespace: std
+malloc: '#include <cstdlib>'
+map:
+  namespace: std
+mask_array:
+  namespace: std
+match_any:
+  namespace: std::regex_constants
+match_continuous:
+  namespace: std::regex_constants
+match_default:
+  namespace: std::regex_constants
+match_not_bol:
+  namespace: std::regex_constants
+match_not_bow:
+  namespace: std::regex_constants
+match_not_eol:
+  namespace: std::regex_constants
+match_not_eow:
+  namespace: std::regex_constants
+match_not_null:
+  namespace: std::regex_constants
+match_prev_avail:
+  namespace: std::regex_constants
+match_results:
+  namespace: std
+math_errhandling: '#include <cmath>'
+max:
+  namespace: std
+max_align_t: '#include <cstddef>'
+max_element:
+  namespace: std
+mblen: '#include <cstdlib>'
+mbrlen: '#include <cwchar>'
+mbrtoc16: '#include <cuchar>'
+mbrtoc32: '#include <cuchar>'
+mbrtowc: '#include <cwchar>'
+mbsinit: '#include <cwchar>'
+mbsrtowcs: '#include <cwchar>'
+mbstate_t: '#include <cwchar>'
+mbstowcs: '#include <cstdlib>'
+mbtowc: '#include <cstdlib>'
+mem_fn:
+  namespace: std
+memchr: '#include <cstring>'
+memcmp: '#include <cstring>'
+memcpy: '#include <cstring>'
+memmove: '#include <cstring>'
+memory_order: '#include <stdatomic.h>'
+memset: '#include <cstring>'
+merge:
+  namespace: std
+mersenne_twister_engine:
+  namespace: std
+messages:
+  namespace: std
+messages_byname:
+  namespace: std
+microseconds:
+  namespace: std::chrono
+milliseconds:
+  namespace: std::chrono
+min:
+  namespace: std
+min_element:
+  namespace: std
+minmax:
+  namespace: std
+minmax_element:
+  namespace: std
+minstd_rand:
+  namespace: std
+minstd_rand0:
+  namespace: std
+minus:
+  namespace: std
+minutes:
+  namespace: std::chrono
+mismatch:
+  namespace: std
+mktime: '#include <ctime>'
+modf: '#include <cmath>'
+modulus:
+  namespace: std
+money_base:
+  namespace: std
+money_get:
+  namespace: std
+money_put:
+  namespace: std
+moneypunct:
+  namespace: std
+moneypunct_byname:
+  namespace: std
+move:
+  namespace: std
+move_backward:
+  namespace: std
+move_if_noexcept:
+  namespace: std
+move_iterator:
+  namespace: std
+mt19937:
+  namespace: std
+mt19937_64:
+  namespace: std
+mtx_destroy: '#include <threads.h>'
+mtx_init: '#include <threads.h>'
+mtx_lock: '#include <threads.h>'
+mtx_plain: '#include <threads.h>'
+mtx_recursive: '#include <threads.h>'
+mtx_t: '#include <threads.h>'
+mtx_timed: '#include <threads.h>'
+mtx_timedlock: '#include <threads.h>'
+mtx_trylock: '#include <threads.h>'
+mtx_unlock: '#include <threads.h>'
+multimap:
+  namespace: std
+multiplies:
+  namespace: std
+multiset:
+  namespace: std
+mutex:
+  namespace: std
+nan: '#include <cmath>'
+nanoseconds:
+  namespace: std::chrono
+nearbyint: '#include <cmath>'
+negate:
+  namespace: std
+negative_binomial_distribution:
+  namespace: std
+nested_exception:
+  namespace: std
+new_handler:
+  namespace: std
+next:
+  namespace: std
+next_permutation:
+  namespace: std
+nextafter: '#include <cmath>'
+nexttoward: '#include <cmath>'
+noboolalpha:
+  namespace: std
+none_of:
+  namespace: std
+noreturn: '#include <stdnoreturn.h>'
+norm:
+  namespace: std
+normal_distribution:
+  namespace: std
+noshowbase:
+  namespace: std
+noshowpoint:
+  namespace: std
+noshowpos:
+  namespace: std
+noskipws:
+  namespace: std
+nosubs:
+  namespace: std::regex_constants
+not: '#include <ciso646>'
+not1:
+  namespace: std
+not2:
+  namespace: std
+not_eq: '#include <ciso646>'
+not_equal_to:
+  namespace: std
+nothrow:
+  namespace: std
+nothrow_t:
+  namespace: std
+notify_all_at_thread_exit:
+  namespace: std
+nounitbuf:
+  namespace: std
+nouppercase:
+  namespace: std
+nth_element:
+  namespace: std
+nullptr_t: '#include <cstddef>'
+num_get:
+  namespace: std
+num_put:
+  namespace: std
+numeric_limits:
+  namespace: std
+numpunct:
+  namespace: std
+numpunct_byname:
+  namespace: std
+oct:
+  namespace: std
+offsetof: '#include <cstddef>'
+ofstream:
+  namespace: std
+once_flag:
+  namespace: std
+optimize:
+  namespace: std::regex_constants
+or: '#include <ciso646>'
+or_eq: '#include <ciso646>'
+ostream:
+  namespace: std
+ostream_iterator:
+  namespace: std
+ostreambuf_iterator:
+  namespace: std
+ostringstream:
+  namespace: std
+out_of_range:
+  namespace: std
+output_iterator_tag:
+  namespace: std
+overflow_error:
+  namespace: std
+owner_less:
+  namespace: std
+packaged_task:
+  namespace: std
+pair:
+  namespace: std
+partial_sort:
+  namespace: std
+partial_sort_copy:
+  namespace: std
+partial_sum:
+  namespace: std
+partition:
+  namespace: std
+partition_copy:
+  namespace: std
+partition_point:
+  namespace: std
+perror: '#include <cstdio>'
+piecewise_constant_distribution:
+  namespace: std
+piecewise_construct:
+  namespace: std
+piecewise_construct_t:
+  namespace: std
+piecewise_linear_distribution:
+  namespace: std
+placeholders::_1:
+  namespace: std
+placeholders::_2:
+  namespace: std
+placeholders::_3:
+  namespace: std
+placeholders::_4:
+  namespace: std
+placeholders::_5:
+  namespace: std
+plus:
+  namespace: std
+pointer_safety:
+  namespace: std
+pointer_traits:
+  namespace: std
+poisson_distribution:
+  namespace: std
+polar:
+  namespace: std
+pop_heap:
+  namespace: std
+pow: '#include <cmath>'
+prev:
+  namespace: std
+prev_permutation:
+  namespace: std
+printf: '#include <cstdio>'
+priority_queue:
+  namespace: std
+proj:
+  namespace: std
+promise:
+  namespace: std
+ptrdiff_t: '#include <cstddef>'
+push_heap:
+  namespace: std
+put_money:
+  namespace: std
+put_time:
+  namespace: std
+putc: '#include <cstdio>'
+putchar: '#include <cstdio>'
+puts: '#include <cstdio>'
+putwc: '#include <cwchar>'
+putwchar: '#include <cwchar>'
+qsort: '#include <cstdlib>'
+queue:
+  namespace: std
+quick_exit: '#include <cstdlib>'
+raise: '#include <csignal>'
+rand: '#include <cstdlib>'
+random_access_iterator_tag:
+  namespace: std
+random_device:
+  namespace: std
+random_shuffle:
+  namespace: std
+range_error:
+  namespace: std
+rank:
+  namespace: std
+ranlux24:
+  namespace: std
+ranlux24_base:
+  namespace: std
+ranlux48:
+  namespace: std
+ranlux48_base:
+  namespace: std
+ratio:
+  namespace: std
+ratio_add:
+  namespace: std
+ratio_divide:
+  namespace: std
+ratio_equal:
+  namespace: std
+ratio_greater:
+  namespace: std
+ratio_greater_equal:
+  namespace: std
+ratio_less:
+  namespace: std
+ratio_less_equal:
+  namespace: std
+ratio_multiply:
+  namespace: std
+ratio_not_equal:
+  namespace: std
+ratio_subtract:
+  namespace: std
+raw_storage_iterator:
+  namespace: std
+rbegin:
+  namespace: std
+real:
+  namespace: std
+realloc: '#include <cstdlib>'
+recursive_mutex:
+  namespace: std
+recursive_timed_mutex:
+  namespace: std
+ref:
+  namespace: std
+reference_wrapper:
+  namespace: std
+regex:
+  namespace: std
+regex_constants::ECMAScript:
+  namespace: std
+regex_constants::awk:
+  namespace: std
+regex_constants::basic:
+  namespace: std
+regex_constants::collate:
+  namespace: std
+regex_constants::egrep:
+  namespace: std
+regex_constants::error_backref:
+  namespace: std
+regex_constants::error_badbrace:
+  namespace: std
+regex_constants::error_badrepeat:
+  namespace: std
+regex_constants::error_brace:
+  namespace: std
+regex_constants::error_brack:
+  namespace: std
+regex_constants::error_collate:
+  namespace: std
+regex_constants::error_complexity:
+  namespace: std
+regex_constants::error_ctype:
+  namespace: std
+regex_constants::error_escape:
+  namespace: std
+regex_constants::error_paren:
+  namespace: std
+regex_constants::error_range:
+  namespace: std
+regex_constants::error_space:
+  namespace: std
+regex_constants::error_stack:
+  namespace: std
+regex_constants::extended:
+  namespace: std
+regex_constants::format_default:
+  namespace: std
+regex_constants::format_first_only:
+  namespace: std
+regex_constants::format_no_copy:
+  namespace: std
+regex_constants::format_sed:
+  namespace: std
+regex_constants::grep:
+  namespace: std
+regex_constants::icase:
+  namespace: std
+regex_constants::match_any:
+  namespace: std
+regex_constants::match_continuous:
+  namespace: std
+regex_constants::match_default:
+  namespace: std
+regex_constants::match_not_bol:
+  namespace: std
+regex_constants::match_not_bow:
+  namespace: std
+regex_constants::match_not_eol:
+  namespace: std
+regex_constants::match_not_eow:
+  namespace: std
+regex_constants::match_not_null:
+  namespace: std
+regex_constants::match_prev_avail:
+  namespace: std
+regex_constants::nosubs:
+  namespace: std
+regex_constants::optimize:
+  namespace: std
+regex_error:
+  namespace: std
+regex_iterator:
+  namespace: std
+regex_match:
+  namespace: std
+regex_replace:
+  namespace: std
+regex_search:
+  namespace: std
+regex_token_iterator:
+  namespace: std
+regex_traits:
+  namespace: std
+remainder: '#include <cmath>'
+remove: '#include <cstdio>'
+remove_all_extents:
+  namespace: std
+remove_const:
+  namespace: std
+remove_copy:
+  namespace: std
+remove_copy_if:
+  namespace: std
+remove_cv:
+  namespace: std
+remove_extent:
+  namespace: std
+remove_if:
+  namespace: std
+remove_pointer:
+  namespace: std
+remove_reference:
+  namespace: std
+remove_volatile:
+  namespace: std
+remquo: '#include <cmath>'
+rename: '#include <cstdio>'
+rend:
+  namespace: std
+replace:
+  namespace: std
+replace_copy:
+  namespace: std
+replace_copy_if:
+  namespace: std
+replace_if:
+  namespace: std
+resetiosflags:
+  namespace: std
+result_of:
+  namespace: std
+rethrow_exception:
+  namespace: std
+rethrow_if_nested:
+  namespace: std
+return_temporary_buffer:
+  namespace: std
+reverse:
+  namespace: std
+reverse_copy:
+  namespace: std
+reverse_iterator:
+  namespace: std
+rewind: '#include <cstdio>'
+right:
+  namespace: std
+rint: '#include <cmath>'
+rotate:
+  namespace: std
+rotate_copy:
+  namespace: std
+round: '#include <cmath>'
+runtime_error:
+  namespace: std
+scalbln: '#include <cmath>'
+scalbn: '#include <cmath>'
+scanf: '#include <cstdio>'
+scientific:
+  namespace: std
+search:
+  namespace: std
+search_n:
+  namespace: std
+seconds:
+  namespace: std::chrono
+seed_seq:
+  namespace: std
+set:
+  namespace: std
+set_difference:
+  namespace: std
+set_intersection:
+  namespace: std
+set_new_handler:
+  namespace: std
+set_symmetric_difference:
+  namespace: std
+set_terminate:
+  namespace: std
+set_unexpected:
+  namespace: std
+set_union:
+  namespace: std
+setbase:
+  namespace: std
+setbuf: '#include <cstdio>'
+setfill:
+  namespace: std
+setiosflags:
+  namespace: std
+setjmp: '#include <csetjmp>'
+setlocale: '#include <clocale>'
+setprecision:
+  namespace: std
+setvbuf: '#include <cstdio>'
+setw:
+  namespace: std
+shared_future:
+  namespace: std
+shared_ptr:
+  namespace: std
+showbase:
+  namespace: std
+showpoint:
+  namespace: std
+showpos:
+  namespace: std
+shuffle:
+  namespace: std
+shuffle_order_engine:
+  namespace: std
+sig_atomic_t: '#include <csignal>'
+signal: '#include <csignal>'
+signbit: '#include <cmath>'
+sin: '#include <cmath>'
+sinh: '#include <cmath>'
+size_t: '#include <cstddef>'
+skipws:
+  namespace: std
+slice:
+  namespace: std
+slice_array:
+  namespace: std
+smatch:
+  namespace: std
+snprintf: '#include <cstdio>'
+sort:
+  namespace: std
+sort_heap:
+  namespace: std
+sprintf: '#include <cstdio>'
+sqrt: '#include <cmath>'
+srand: '#include <cstdlib>'
+sscanf: '#include <cstdio>'
+ssub_match:
+  namespace: std
+stable_partition:
+  namespace: std
+stable_sort:
+  namespace: std
+stack:
+  namespace: std
+static_assert: '#include <cassert>'
+static_pointer_cast:
+  namespace: std
+std::ATOMIC_BOOL_LOCK_FREE: '#include <atomic>'
+std::ATOMIC_CHAR16_T_LOCK_FREE: '#include <atomic>'
+std::ATOMIC_CHAR32_T_LOCK_FREE: '#include <atomic>'
+std::ATOMIC_CHAR_LOCK_FREE: '#include <atomic>'
+std::ATOMIC_FLAG_INIT: '#include <atomic>'
+std::ATOMIC_INT_LOCK_FREE: '#include <atomic>'
+std::ATOMIC_LLONG_LOCK_FREE: '#include <atomic>'
+std::ATOMIC_LONG_LOCK_FREE: '#include <atomic>'
+std::ATOMIC_POINTER_LOCK_FREE: '#include <atomic>'
+std::ATOMIC_SHORT_LOCK_FREE: '#include <atomic>'
+std::ATOMIC_VAR_INIT: '#include <atomic>'
+std::ATOMIC_WCHAR_T_LOCK_FREE: '#include <atomic>'
+std::abs: '#include <complex>'
+std::accumulate: '#include <numeric>'
+std::acos: '#include <complex>'
+std::acosh: '#include <complex>'
+std::add_const: '#include <type_traits>'
+std::add_cv: '#include <type_traits>'
+std::add_lvalue_reference: '#include <type_traits>'
+std::add_pointer: '#include <type_traits>'
+std::add_rvalue_reference: '#include <type_traits>'
+std::add_volatile: '#include <type_traits>'
+std::addressof: '#include <memory>'
+std::adjacent_difference: '#include <numeric>'
+std::adjacent_find: '#include <algorithm>'
+std::adopt_lock_t: '#include <mutex>'
+std::advance: '#include <iterator>'
+std::align: '#include <memory>'
+std::aligned_storage: '#include <type_traits>'
+std::aligned_union: '#include <type_traits>'
+std::alignment_of: '#include <type_traits>'
+std::all_of: '#include <algorithm>'
+std::allocate_shared: '#include <memory>'
+std::allocator: '#include <memory>'
+std::allocator_arg: '#include <memory>'
+std::allocator_arg_t: '#include <memory>'
+std::allocator_traits: '#include <memory>'
+std::any_of: '#include <algorithm>'
+std::arg: '#include <complex>'
+std::array: '#include <array>'
+std::asin: '#include <complex>'
+std::asinh: '#include <complex>'
+std::async: '#include <future>'
+std::atan: '#include <complex>'
+std::atanh: '#include <complex>'
+std::atomic: '#include <atomic>'
+std::atomic_bool: '#include <atomic>'
+std::atomic_char: '#include <atomic>'
+std::atomic_char16_t: '#include <atomic>'
+std::atomic_char32_t: '#include <atomic>'
+std::atomic_compare_exchange_strong: '#include <atomic>'
+std::atomic_compare_exchange_strong_explicit: '#include <atomic>'
+std::atomic_compare_exchange_weak: '#include <atomic>'
+std::atomic_compare_exchange_weak_explicit: '#include <atomic>'
+std::atomic_exchange: '#include <atomic>'
+std::atomic_exchange_explicit: '#include <atomic>'
+std::atomic_fetch_add: '#include <atomic>'
+std::atomic_fetch_add_explicit: '#include <atomic>'
+std::atomic_fetch_and: '#include <atomic>'
+std::atomic_fetch_and_explicit: '#include <atomic>'
+std::atomic_fetch_or: '#include <atomic>'
+std::atomic_fetch_or_explicit: '#include <atomic>'
+std::atomic_fetch_sub: '#include <atomic>'
+std::atomic_fetch_sub_explicit: '#include <atomic>'
+std::atomic_fetch_xor: '#include <atomic>'
+std::atomic_fetch_xor_explicit: '#include <atomic>'
+std::atomic_flag: '#include <atomic>'
+std::atomic_flag_clear: '#include <atomic>'
+std::atomic_flag_clear_explicit: '#include <atomic>'
+std::atomic_flag_test_and_set: '#include <atomic>'
+std::atomic_flag_test_and_set_explicit: '#include <atomic>'
+std::atomic_init: '#include <atomic>'
+std::atomic_int: '#include <atomic>'
+std::atomic_int_fast16_t: '#include <atomic>'
+std::atomic_int_fast32_t: '#include <atomic>'
+std::atomic_int_fast64_t: '#include <atomic>'
+std::atomic_int_fast8_t: '#include <atomic>'
+std::atomic_int_least16_t: '#include <atomic>'
+std::atomic_int_least32_t: '#include <atomic>'
+std::atomic_int_least64_t: '#include <atomic>'
+std::atomic_int_least8_t: '#include <atomic>'
+std::atomic_intmax_t: '#include <atomic>'
+std::atomic_intptr_t: '#include <atomic>'
+std::atomic_is_lock_free: '#include <atomic>'
+std::atomic_llong: '#include <atomic>'
+std::atomic_load: '#include <atomic>'
+std::atomic_load_explicit: '#include <atomic>'
+std::atomic_long: '#include <atomic>'
+std::atomic_ptrdiff_t: '#include <atomic>'
+std::atomic_schar: '#include <atomic>'
+std::atomic_short: '#include <atomic>'
+std::atomic_signal_fence: '#include <atomic>'
+std::atomic_size_t: '#include <atomic>'
+std::atomic_store: '#include <atomic>'
+std::atomic_store_explicit: '#include <atomic>'
+std::atomic_thread_fence: '#include <atomic>'
+std::atomic_uchar: '#include <atomic>'
+std::atomic_uint: '#include <atomic>'
+std::atomic_uint_fast16_t: '#include <atomic>'
+std::atomic_uint_fast32_t: '#include <atomic>'
+std::atomic_uint_fast64_t: '#include <atomic>'
+std::atomic_uint_fast8_t: '#include <atomic>'
+std::atomic_uint_least16_t: '#include <atomic>'
+std::atomic_uint_least32_t: '#include <atomic>'
+std::atomic_uint_least64_t: '#include <atomic>'
+std::atomic_uint_least8_t: '#include <atomic>'
+std::atomic_uintmax_t: '#include <atomic>'
+std::atomic_uintptr_t: '#include <atomic>'
+std::atomic_ullong: '#include <atomic>'
+std::atomic_ulong: '#include <atomic>'
+std::atomic_ushort: '#include <atomic>'
+std::atomic_wchar_t: '#include <atomic>'
+std::auto_ptr: '#include <memory>'
+std::auto_ptr_ref: '#include <memory>'
+std::back_insert_iterator: '#include <iterator>'
+std::back_inserter: '#include <iterator>'
+std::bad_alloc: '#include <new>'
+std::bad_array_new_length: '#include <new>'
+std::bad_cast: '#include <typeinfo>'
+std::bad_exception: '#include <exception>'
+std::bad_function_call: '#include <functional>'
+std::bad_typeid: '#include <typeinfo>'
+std::basic_filebuf: '#include <fstream>'
+std::basic_fstream: '#include <fstream>'
+std::basic_ifstream: '#include <fstream>'
+std::basic_ios: '#include <iostream>'
+std::basic_iostream: '#include <iostream>'
+std::basic_istream: '#include <iostream>'
+std::basic_istringstream: '#include <sstream>'
+std::basic_ofstream: '#include <fstream>'
+std::basic_ostream: '#include <iostream>'
+std::basic_ostringstream: '#include <sstream>'
+std::basic_regex: '#include <regex>'
+std::basic_streambuf: '#include <iostream>'
+std::basic_string: '#include <string>'
+std::basic_stringbuf: '#include <sstream>'
+std::basic_stringstream: '#include <sstream>'
+std::begin: '#include <iterator>'
+std::bernoulli_distribution: '#include <random>'
+std::bidirectional_iterator_tag: '#include <iterator>'
+std::binary_negate: '#include <functional>'
+std::binary_search: '#include <algorithm>'
+std::bind: '#include <functional>'
+std::binomial_distribution: '#include <random>'
+std::bit_and: '#include <functional>'
+std::bit_or: '#include <functional>'
+std::bit_xor: '#include <functional>'
+std::bitset: '#include <bitset>'
+std::boolalpha: '#include <iostream>'
+std::call_once: '#include <mutex>'
+std::cauchy_distribution: '#include <random>'
+std::cbegin: '#include <iterator>'
+std::cend: '#include <iterator>'
+std::cerr: '#include <iostream>'
+std::char_traits: '#include <string>'
+std::chi_squared_distribution: '#include <random>'
+std::chrono::duration: '#include <chrono>'
+std::chrono::duration_cast: '#include <chrono>'
+std::chrono::duration_values: '#include <chrono>'
+std::chrono::high_resolution_clock: '#include <chrono>'
+std::chrono::hours: '#include <chrono>'
+std::chrono::microseconds: '#include <chrono>'
+std::chrono::milliseconds: '#include <chrono>'
+std::chrono::minutes: '#include <chrono>'
+std::chrono::nanoseconds: '#include <chrono>'
+std::chrono::seconds: '#include <chrono>'
+std::chrono::steady_clock: '#include <chrono>'
+std::chrono::system_clock: '#include <chrono>'
+std::chrono::time_point: '#include <chrono>'
+std::chrono::time_point_cast: '#include <chrono>'
+std::chrono::treat_as_floating_point: '#include <chrono>'
+std::cin: '#include <iostream>'
+std::clog: '#include <iostream>'
+std::cmatch: '#include <regex>'
+std::codecvt: '#include <locale>'
+std::codecvt_base: '#include <locale>'
+std::codecvt_byname: '#include <locale>'
+std::codecvt_mode: '#include <codecvt>'
+std::codecvt_utf16: '#include <codecvt>'
+std::codecvt_utf8: '#include <codecvt>'
+std::codecvt_utf8_utf16: '#include <codecvt>'
+std::collate: '#include <locale>'
+std::collate_byname: '#include <locale>'
+std::common_type: '#include <type_traits>'
+std::complex: '#include <complex>'
+std::condition_variable: '#include <conditional_variable>'
+std::condition_variable_any: '#include <conditional_variable>'
+std::conditional: '#include <type_traits>'
+std::conj: '#include <complex>'
+std::const_pointer_cast: '#include <memory>'
+std::copy: '#include <algorithm>'
+std::copy_backward: '#include <algorithm>'
+std::copy_if: '#include <algorithm>'
+std::copy_n: '#include <algorithm>'
+std::cos: '#include <complex>'
+std::cosh: '#include <complex>'
+std::count: '#include <algorithm>'
+std::count_if: '#include <algorithm>'
+std::cout: '#include <iostream>'
+std::crbegin: '#include <iterator>'
+std::cref: '#include <functional>'
+std::crend: '#include <iterator>'
+std::csub_match: '#include <regex>'
+std::ctype: '#include <locale>'
+std::ctype_base: '#include <locale>'
+std::ctype_byname: '#include <locale>'
+std::current_exception: '#include <exception>'
+std::cv_status: '#include <conditional_variable>'
+std::dec: '#include <iostream>'
+std::decay: '#include <type_traits>'
+std::declare_no_pointers: '#include <memory>'
+std::declare_reachable: '#include <memory>'
+std::declval: '#include <utility>'
+std::default_delete: '#include <memory>'
+std::default_random_engine: '#include <random>'
+std::defer_lock_t: '#include <mutex>'
+std::deque: '#include <deque>'
+std::discard_block_engine: '#include <random>'
+std::discrete_distribution: '#include <random>'
+std::distance: '#include <iterator>'
+std::divides: '#include <functional>'
+std::domain_error: '#include <stdexcept>'
+std::dynamic_pointer_cast: '#include <memory>'
+std::enable_if: '#include <type_traits>'
+std::enable_shared_from_this: '#include <memory>'
+std::end: '#include <iterator>'
+std::endl: '#include <iostream>'
+std::ends: '#include <iostream>'
+std::equal: '#include <algorithm>'
+std::equal_range: '#include <algorithm>'
+std::equal_to: '#include <functional>'
+std::errc: '#include <system_error>'
+std::error_category: '#include <system_error>'
+std::error_code: '#include <system_error>'
+std::error_condition: '#include <system_error>'
+std::exception: '#include <exception>'
+std::exception_ptr: '#include <exception>'
+std::exp: '#include <complex>'
+std::exponential_distribution: '#include <random>'
+std::extent: '#include <type_traits>'
+std::extreme_value_distribution: '#include <random>'
+std::false_type: '#include <type_traits>'
+std::filebuf: '#include <fstream>'
+std::fill: '#include <algorithm>'
+std::fill_n: '#include <algorithm>'
+std::find: '#include <algorithm>'
+std::find_end: '#include <algorithm>'
+std::find_first_of: '#include <algorithm>'
+std::find_if: '#include <algorithm>'
+std::find_if_not: '#include <algorithm>'
+std::fisher_f_distribution: '#include <random>'
+std::fixed: '#include <iostream>'
+std::float_denorm_style: '#include <limits>'
+std::float_round_style: '#include <limits>'
+std::flush: '#include <iostream>'
+std::for_each: '#include <algorithm>'
+std::forward: '#include <utility>'
+std::forward_as_tuple: '#include <tuple>'
+std::forward_iterator_tag: '#include <iterator>'
+std::forward_list: '#include <forward_list>'
+std::fpos: '#include <iostream>'
+std::front_insert_iterator: '#include <iterator>'
+std::front_inserter: '#include <iterator>'
+std::fstream: '#include <fstream>'
+std::function: '#include <functional>'
+std::future: '#include <future>'
+std::future_category: '#include <future>'
+std::future_errc: '#include <future>'
+std::future_error: '#include <future>'
+std::future_status: '#include <future>'
+std::gamma_distribution: '#include <random>'
+std::generate: '#include <algorithm>'
+std::generate_canonical: '#include <random>'
+std::generate_n: '#include <algorithm>'
+std::generic_category: '#include <system_error>'
+std::geometric_distribution: '#include <random>'
+std::get: '#include <tuple>'
+std::get_deleter: '#include <memory>'
+std::get_money: '#include <iomanip>'
+std::get_new_handler: '#include <new>'
+std::get_pointer_safety: '#include <memory>'
+std::get_temporary_buffer: '#include <memory>'
+std::get_terminate: '#include <exception>'
+std::get_time: '#include <iomanip>'
+std::get_unexpected: '#include <exception>'
+std::greater: '#include <functional>'
+std::greater_equal: '#include <functional>'
+std::gslice: '#include <valarray>'
+std::gslice_array: '#include <valarray>'
+std::has_facet: '#include <locale>'
+std::has_virtual_destructor: '#include <type_traits>'
+std::hash: '#include <functional>'
+std::hex: '#include <iostream>'
+std::ifstream: '#include <fstream>'
+std::ignore: '#include <tuple>'
+std::imag: '#include <complex>'
+std::includes: '#include <algorithm>'
+std::independent_bits_engine: '#include <random>'
+std::indirect_array: '#include <valarray>'
+std::initializer_list: '#include <utility>'
+std::inner_product: '#include <numeric>'
+std::inplace_merge: '#include <algorithm>'
+std::input_iterator_tag: '#include <iterator>'
+std::insert_iterator: '#include <iterator>'
+std::inserter: '#include <iterator>'
+std::integral_constant: '#include <type_traits>'
+std::internal: '#include <iostream>'
+std::invalid_argument: '#include <stdexcept>'
+std::io_errc: '#include <iostream>'
+std::ios: '#include <iostream>'
+std::ios_base: '#include <iostream>'
+std::iostream: '#include <iostream>'
+std::iostream_category: '#include <iostream>'
+std::iota: '#include <numeric>'
+std::is_abstract: '#include <type_traits>'
+std::is_arithmetic: '#include <type_traits>'
+std::is_array: '#include <type_traits>'
+std::is_assignable: '#include <type_traits>'
+std::is_base_of: '#include <type_traits>'
+std::is_bind_expression: '#include <functional>'
+std::is_class: '#include <type_traits>'
+std::is_compound: '#include <type_traits>'
+std::is_const: '#include <type_traits>'
+std::is_constructible: '#include <type_traits>'
+std::is_convertible: '#include <type_traits>'
+std::is_copy_assignable: '#include <type_traits>'
+std::is_copy_constructible: '#include <type_traits>'
+std::is_default_constructible: '#include <type_traits>'
+std::is_destructible: '#include <type_traits>'
+std::is_empty: '#include <type_traits>'
+std::is_enum: '#include <type_traits>'
+std::is_error_code_enum: '#include <system_error>'
+std::is_error_condition_enum: '#include <system_error>'
+std::is_floating_point: '#include <type_traits>'
+std::is_function: '#include <type_traits>'
+std::is_fundamental: '#include <type_traits>'
+std::is_heap: '#include <algorithm>'
+std::is_heap_until: '#include <algorithm>'
+std::is_integral: '#include <type_traits>'
+std::is_literal_type: '#include <type_traits>'
+std::is_lvalue_reference: '#include <type_traits>'
+std::is_member_function_pointer: '#include <type_traits>'
+std::is_member_object_pointer: '#include <type_traits>'
+std::is_member_pointer: '#include <type_traits>'
+std::is_move_assignable: '#include <type_traits>'
+std::is_move_constructible: '#include <type_traits>'
+std::is_nothrow_assignable: '#include <type_traits>'
+std::is_nothrow_constructible: '#include <type_traits>'
+std::is_nothrow_copy_assignable: '#include <type_traits>'
+std::is_nothrow_copy_constructible: '#include <type_traits>'
+std::is_nothrow_default_constructible: '#include <type_traits>'
+std::is_nothrow_destructible: '#include <type_traits>'
+std::is_nothrow_move_assignable: '#include <type_traits>'
+std::is_nothrow_move_constructible: '#include <type_traits>'
+std::is_object: '#include <type_traits>'
+std::is_partitioned: '#include <algorithm>'
+std::is_permutation: '#include <algorithm>'
+std::is_placeholder: '#include <functional>'
+std::is_pod: '#include <type_traits>'
+std::is_pointer: '#include <type_traits>'
+std::is_polymorphic: '#include <type_traits>'
+std::is_reference: '#include <type_traits>'
+std::is_rvalue_reference: '#include <type_traits>'
+std::is_same: '#include <type_traits>'
+std::is_scalar: '#include <type_traits>'
+std::is_signed: '#include <type_traits>'
+std::is_sorted: '#include <algorithm>'
+std::is_sorted_until: '#include <algorithm>'
+std::is_standard_layout: '#include <type_traits>'
+std::is_trivial: '#include <type_traits>'
+std::is_trivially_assignable: '#include <type_traits>'
+std::is_trivially_constructible: '#include <type_traits>'
+std::is_trivially_copy_assignable: '#include <type_traits>'
+std::is_trivially_copy_constructible: '#include <type_traits>'
+std::is_trivially_copyable: '#include <type_traits>'
+std::is_trivially_default_constructible: '#include <type_traits>'
+std::is_trivially_destructible: '#include <type_traits>'
+std::is_trivially_move_assignable: '#include <type_traits>'
+std::is_trivially_move_constructible: '#include <type_traits>'
+std::is_union: '#include <type_traits>'
+std::is_unsigned: '#include <type_traits>'
+std::is_void: '#include <type_traits>'
+std::is_volatile: '#include <type_traits>'
+std::istream: '#include <iostream>'
+std::istream_iterator: '#include <iterator>'
+std::istreambuf_iterator: '#include <iterator>'
+std::istringstream: '#include <sstream>'
+std::iter_swap: '#include <algorithm>'
+std::iterator: '#include <iterator>'
+std::iterator_traits: '#include <iterator>'
+std::kill_dependency: '#include <atomic>'
+std::knuth_b: '#include <random>'
+std::launch: '#include <future>'
+std::left: '#include <iostream>'
+std::length_error: '#include <stdexcept>'
+std::less: '#include <functional>'
+std::less_equal: '#include <functional>'
+std::lexicographical_compare: '#include <algorithm>'
+std::linear_congruential_engine: '#include <random>'
+std::list: '#include <list>'
+std::locale: '#include <locale>'
+std::lock: '#include <mutex>'
+std::lock_guard: '#include <mutex>'
+std::log: '#include <complex>'
+std::log10: '#include <complex>'
+std::logic_error: '#include <stdexcept>'
+std::logical_and: '#include <functional>'
+std::logical_not: '#include <functional>'
+std::logical_or: '#include <functional>'
+std::lognormal_distribution: '#include <random>'
+std::lower_bound: '#include <algorithm>'
+std::make_error_code: '#include <system_error>'
+std::make_error_condition: '#include <system_error>'
+std::make_exception_ptr: '#include <exception>'
+std::make_heap: '#include <algorithm>'
+std::make_move_iterator: '#include <iterator>'
+std::make_pair: '#include <utility>'
+std::make_reverse_iterator: '#include <iterator>'
+std::make_shared: '#include <memory>'
+std::make_signed: '#include <type_traits>'
+std::make_tuple: '#include <tuple>'
+std::make_unsigned: '#include <type_traits>'
+std::map: '#include <map>'
+std::mask_array: '#include <valarray>'
+std::match_results: '#include <regex>'
+std::max: '#include <algorithm>'
+std::max_element: '#include <algorithm>'
+std::mem_fn: '#include <functional>'
+std::memory_order: '#include <atomic>'
+std::merge: '#include <algorithm>'
+std::mersenne_twister_engine: '#include <random>'
+std::messages: '#include <locale>'
+std::messages_byname: '#include <locale>'
+std::min: '#include <algorithm>'
+std::min_element: '#include <algorithm>'
+std::minmax: '#include <algorithm>'
+std::minmax_element: '#include <algorithm>'
+std::minstd_rand: '#include <random>'
+std::minstd_rand0: '#include <random>'
+std::minus: '#include <functional>'
+std::mismatch: '#include <algorithm>'
+std::modulus: '#include <functional>'
+std::money_base: '#include <locale>'
+std::money_get: '#include <locale>'
+std::money_put: '#include <locale>'
+std::moneypunct: '#include <locale>'
+std::moneypunct_byname: '#include <locale>'
+std::move: '#include <algorithm>'
+std::move_backward: '#include <algorithm>'
+std::move_if_noexcept: '#include <utility>'
+std::move_iterator: '#include <iterator>'
+std::mt19937: '#include <random>'
+std::mt19937_64: '#include <random>'
+std::multimap: '#include <map>'
+std::multiplies: '#include <functional>'
+std::multiset: '#include <set>'
+std::mutex: '#include <mutex>'
+std::negate: '#include <functional>'
+std::negative_binomial_distribution: '#include <random>'
+std::nested_exception: '#include <exception>'
+std::new_handler: '#include <new>'
+std::next: '#include <iterator>'
+std::next_permutation: '#include <algorithm>'
+std::noboolalpha: '#include <iostream>'
+std::none_of: '#include <algorithm>'
+std::norm: '#include <complex>'
+std::normal_distribution: '#include <random>'
+std::noshowbase: '#include <iostream>'
+std::noshowpoint: '#include <iostream>'
+std::noshowpos: '#include <iostream>'
+std::noskipws: '#include <iostream>'
+std::not1: '#include <functional>'
+std::not2: '#include <functional>'
+std::not_equal_to: '#include <functional>'
+std::nothrow: '#include <new>'
+std::nothrow_t: '#include <new>'
+std::notify_all_at_thread_exit: '#include <conditional_variable>'
+std::nounitbuf: '#include <iostream>'
+std::nouppercase: '#include <iostream>'
+std::nth_element: '#include <algorithm>'
+std::num_get: '#include <locale>'
+std::num_put: '#include <locale>'
+std::numeric_limits: '#include <limits>'
+std::numpunct: '#include <locale>'
+std::numpunct_byname: '#include <locale>'
+std::oct: '#include <iostream>'
+std::ofstream: '#include <fstream>'
+std::once_flag: '#include <mutex>'
+std::ostream: '#include <iostream>'
+std::ostream_iterator: '#include <iterator>'
+std::ostreambuf_iterator: '#include <iterator>'
+std::ostringstream: '#include <sstream>'
+std::out_of_range: '#include <stdexcept>'
+std::output_iterator_tag: '#include <iterator>'
+std::overflow_error: '#include <stdexcept>'
+std::owner_less: '#include <memory>'
+std::packaged_task: '#include <future>'
+std::pair: '#include <utility>'
+std::partial_sort: '#include <algorithm>'
+std::partial_sort_copy: '#include <algorithm>'
+std::partial_sum: '#include <numeric>'
+std::partition: '#include <algorithm>'
+std::partition_copy: '#include <algorithm>'
+std::partition_point: '#include <algorithm>'
+std::piecewise_constant_distribution: '#include <random>'
+std::piecewise_construct: '#include <utility>'
+std::piecewise_construct_t: '#include <utility>'
+std::piecewise_linear_distribution: '#include <random>'
+std::placeholders::_1: '#include <functional>'
+std::placeholders::_2: '#include <functional>'
+std::placeholders::_3: '#include <functional>'
+std::placeholders::_4: '#include <functional>'
+std::placeholders::_5: '#include <functional>'
+std::plus: '#include <functional>'
+std::pointer_safety: '#include <memory>'
+std::pointer_traits: '#include <memory>'
+std::poisson_distribution: '#include <random>'
+std::polar: '#include <complex>'
+std::pop_heap: '#include <algorithm>'
+std::pow: '#include <complex>'
+std::prev: '#include <iterator>'
+std::prev_permutation: '#include <algorithm>'
+std::priority_queue: '#include <queue>'
+std::proj: '#include <complex>'
+std::promise: '#include <future>'
+std::push_heap: '#include <algorithm>'
+std::put_money: '#include <iomanip>'
+std::put_time: '#include <iomanip>'
+std::queue: '#include <queue>'
+std::random_access_iterator_tag: '#include <iterator>'
+std::random_device: '#include <random>'
+std::random_shuffle: '#include <algorithm>'
+std::range_error: '#include <stdexcept>'
+std::rank: '#include <type_traits>'
+std::ranlux24: '#include <random>'
+std::ranlux24_base: '#include <random>'
+std::ranlux48: '#include <random>'
+std::ranlux48_base: '#include <random>'
+std::ratio: '#include <ratio>'
+std::ratio_add: '#include <ratio>'
+std::ratio_divide: '#include <ratio>'
+std::ratio_equal: '#include <ratio>'
+std::ratio_greater: '#include <ratio>'
+std::ratio_greater_equal: '#include <ratio>'
+std::ratio_less: '#include <ratio>'
+std::ratio_less_equal: '#include <ratio>'
+std::ratio_multiply: '#include <ratio>'
+std::ratio_not_equal: '#include <ratio>'
+std::ratio_subtract: '#include <ratio>'
+std::raw_storage_iterator: '#include <memory>'
+std::rbegin: '#include <iterator>'
+std::real: '#include <complex>'
+std::recursive_mutex: '#include <mutex>'
+std::recursive_timed_mutex: '#include <mutex>'
+std::ref: '#include <functional>'
+std::reference_wrapper: '#include <functional>'
+std::regex: '#include <regex>'
+std::regex_constants::ECMAScript: '#include <regex>'
+std::regex_constants::awk: '#include <regex>'
+std::regex_constants::basic: '#include <regex>'
+std::regex_constants::collate: '#include <regex>'
+std::regex_constants::egrep: '#include <regex>'
+std::regex_constants::error_backref: '#include <regex>'
+std::regex_constants::error_badbrace: '#include <regex>'
+std::regex_constants::error_badrepeat: '#include <regex>'
+std::regex_constants::error_brace: '#include <regex>'
+std::regex_constants::error_brack: '#include <regex>'
+std::regex_constants::error_collate: '#include <regex>'
+std::regex_constants::error_complexity: '#include <regex>'
+std::regex_constants::error_ctype: '#include <regex>'
+std::regex_constants::error_escape: '#include <regex>'
+std::regex_constants::error_paren: '#include <regex>'
+std::regex_constants::error_range: '#include <regex>'
+std::regex_constants::error_space: '#include <regex>'
+std::regex_constants::error_stack: '#include <regex>'
+std::regex_constants::extended: '#include <regex>'
+std::regex_constants::format_default: '#include <regex>'
+std::regex_constants::format_first_only: '#include <regex>'
+std::regex_constants::format_no_copy: '#include <regex>'
+std::regex_constants::format_sed: '#include <regex>'
+std::regex_constants::grep: '#include <regex>'
+std::regex_constants::icase: '#include <regex>'
+std::regex_constants::match_any: '#include <regex>'
+std::regex_constants::match_continuous: '#include <regex>'
+std::regex_constants::match_default: '#include <regex>'
+std::regex_constants::match_not_bol: '#include <regex>'
+std::regex_constants::match_not_bow: '#include <regex>'
+std::regex_constants::match_not_eol: '#include <regex>'
+std::regex_constants::match_not_eow: '#include <regex>'
+std::regex_constants::match_not_null: '#include <regex>'
+std::regex_constants::match_prev_avail: '#include <regex>'
+std::regex_constants::nosubs: '#include <regex>'
+std::regex_constants::optimize: '#include <regex>'
+std::regex_error: '#include <regex>'
+std::regex_iterator: '#include <regex>'
+std::regex_match: '#include <regex>'
+std::regex_replace: '#include <regex>'
+std::regex_search: '#include <regex>'
+std::regex_token_iterator: '#include <regex>'
+std::regex_traits: '#include <regex>'
+std::remove: '#include <algorithm>'
+std::remove_all_extents: '#include <type_traits>'
+std::remove_const: '#include <type_traits>'
+std::remove_copy: '#include <algorithm>'
+std::remove_copy_if: '#include <algorithm>'
+std::remove_cv: '#include <type_traits>'
+std::remove_extent: '#include <type_traits>'
+std::remove_if: '#include <algorithm>'
+std::remove_pointer: '#include <type_traits>'
+std::remove_reference: '#include <type_traits>'
+std::remove_volatile: '#include <type_traits>'
+std::rend: '#include <iterator>'
+std::replace: '#include <algorithm>'
+std::replace_copy: '#include <algorithm>'
+std::replace_copy_if: '#include <algorithm>'
+std::replace_if: '#include <algorithm>'
+std::resetiosflags: '#include <iomanip>'
+std::result_of: '#include <type_traits>'
+std::rethrow_exception: '#include <exception>'
+std::rethrow_if_nested: '#include <exception>'
+std::return_temporary_buffer: '#include <memory>'
+std::reverse: '#include <algorithm>'
+std::reverse_copy: '#include <algorithm>'
+std::reverse_iterator: '#include <iterator>'
+std::right: '#include <iostream>'
+std::rotate: '#include <algorithm>'
+std::rotate_copy: '#include <algorithm>'
+std::runtime_error: '#include <stdexcept>'
+std::scientific: '#include <iostream>'
+std::search: '#include <algorithm>'
+std::search_n: '#include <algorithm>'
+std::seed_seq: '#include <random>'
+std::set: '#include <set>'
+std::set_difference: '#include <algorithm>'
+std::set_intersection: '#include <algorithm>'
+std::set_new_handler: '#include <new>'
+std::set_symmetric_difference: '#include <algorithm>'
+std::set_terminate: '#include <exception>'
+std::set_unexpected: '#include <exception>'
+std::set_union: '#include <algorithm>'
+std::setbase: '#include <iomanip>'
+std::setfill: '#include <iomanip>'
+std::setiosflags: '#include <iomanip>'
+std::setprecision: '#include <iomanip>'
+std::setw: '#include <iomanip>'
+std::shared_future: '#include <future>'
+std::shared_ptr: '#include <memory>'
+std::showbase: '#include <iostream>'
+std::showpoint: '#include <iostream>'
+std::showpos: '#include <iostream>'
+std::shuffle: '#include <algorithm>'
+std::shuffle_order_engine: '#include <random>'
+std::sin: '#include <complex>'
+std::sinh: '#include <complex>'
+std::skipws: '#include <iostream>'
+std::slice: '#include <valarray>'
+std::slice_array: '#include <valarray>'
+std::smatch: '#include <regex>'
+std::sort: '#include <algorithm>'
+std::sort_heap: '#include <algorithm>'
+std::sqrt: '#include <complex>'
+std::ssub_match: '#include <regex>'
+std::stable_partition: '#include <algorithm>'
+std::stable_sort: '#include <algorithm>'
+std::stack: '#include <stack>'
+std::static_pointer_cast: '#include <memory>'
+std::stod: '#include <string>'
+std::stof: '#include <string>'
+std::stoi: '#include <string>'
+std::stol: '#include <string>'
+std::stold: '#include <string>'
+std::stoll: '#include <string>'
+std::stoul: '#include <string>'
+std::stoull: '#include <string>'
+std::streambuf: '#include <iostream>'
+std::streamoff: '#include <iostream>'
+std::streampos: '#include <iostream>'
+std::streamsize: '#include <iostream>'
+std::string: '#include <string>'
+std::stringbuf: '#include <sstream>'
+std::stringstream: '#include <sstream>'
+std::student_t_distribution: '#include <random>'
+std::sub_match: '#include <regex>'
+std::subtract_with_carry_engine: '#include <random>'
+std::swap: '#include <algorithm>'
+std::swap_ranges: '#include <algorithm>'
+std::system_category: '#include <system_error>'
+std::system_error: '#include <system_error>'
+std::tan: '#include <complex>'
+std::tanh: '#include <complex>'
+std::terminate: '#include <exception>'
+std::terminate_handler: '#include <exception>'
+std::this_thread: '#include <thread>'
+std::thread: '#include <thread>'
+std::throw_with_nested: '#include <exception>'
+std::tie: '#include <tuple>'
+std::time_base: '#include <locale>'
+std::time_get: '#include <locale>'
+std::time_get_byname: '#include <locale>'
+std::time_put: '#include <locale>'
+std::time_put_byname: '#include <locale>'
+std::timed_mutex: '#include <mutex>'
+std::to_string: '#include <string>'
+std::to_wstring: '#include <string>'
+std::transform: '#include <algorithm>'
+std::true_type: '#include <type_traits>'
+std::try_lock: '#include <mutex>'
+std::try_to_lock_t: '#include <mutex>'
+std::tuple: '#include <tuple>'
+std::tuple_cat: '#include <tuple>'
+std::tuple_element: '#include <tuple>'
+std::tuple_size: '#include <tuple>'
+std::type_index: '#include <typeindex>'
+std::type_info: '#include <typeinfo>'
+std::u16string: '#include <string>'
+std::u32string: '#include <string>'
+std::unary_negate: '#include <functional>'
+std::uncaught_exception: '#include <exception>'
+std::undeclare_no_pointers: '#include <memory>'
+std::undeclare_reachable: '#include <memory>'
+std::underflow_error: '#include <stdexcept>'
+std::underlying_type: '#include <type_traits>'
+std::unexpected: '#include <exception>'
+std::unexpected_handler: '#include <exception>'
+std::uniform_int_distribution: '#include <random>'
+std::uniform_real_distribution: '#include <random>'
+std::uninitialized_copy: '#include <memory>'
+std::uninitialized_copy_n: '#include <memory>'
+std::uninitialized_fill: '#include <memory>'
+std::uninitialized_fill_n: '#include <memory>'
+std::unique: '#include <algorithm>'
+std::unique_copy: '#include <algorithm>'
+std::unique_lock: '#include <mutex>'
+std::unique_ptr: '#include <memory>'
+std::unitbuf: '#include <iostream>'
+std::unordered_map: '#include <unordered_map>'
+std::unordered_multimap: '#include <unordered_map>'
+std::unordered_multiset: '#include <unordered_set>'
+std::unordered_set: '#include <unordered_set>'
+std::upper_bound: '#include <algorithm>'
+std::uppercase: '#include <iostream>'
+std::use_facet: '#include <locale>'
+std::valarray: '#include <valarray>'
+std::vector: '#include <vector>'
+std::wcerr: '#include <iostream>'
+std::wcin: '#include <iostream>'
+std::wclog: '#include <iostream>'
+std::wcmatch: '#include <regex>'
+std::wcout: '#include <iostream>'
+std::wcsub_match: '#include <regex>'
+std::weak_ptr: '#include <memory>'
+std::weibull_distribution: '#include <random>'
+std::wfilebuf: '#include <fstream>'
+std::wfstream: '#include <fstream>'
+std::wifstream: '#include <fstream>'
+std::wios: '#include <iostream>'
+std::wiostream: '#include <iostream>'
+std::wistream: '#include <iostream>'
+std::wistringstream: '#include <sstream>'
+std::wofstream: '#include <fstream>'
+std::wostream: '#include <iostream>'
+std::wostringstream: '#include <sstream>'
+std::wregex: '#include <regex>'
+std::ws: '#include <iostream>'
+std::wsmatch: '#include <regex>'
+std::wssub_match: '#include <regex>'
+std::wstreambuf: '#include <iostream>'
+std::wstreampos: '#include <iostream>'
+std::wstring: '#include <string>'
+std::wstringbuf: '#include <sstream>'
+std::wstringstream: '#include <sstream>'
+steady_clock:
+  namespace: std::chrono
+stod:
+  namespace: std
+stof:
+  namespace: std
+stoi:
+  namespace: std
+stol:
+  namespace: std
+stold:
+  namespace: std
+stoll:
+  namespace: std
+stoul:
+  namespace: std
+stoull:
+  namespace: std
+strcat: '#include <cstring>'
+strchr: '#include <cstring>'
+strcmp: '#include <cstring>'
+strcoll: '#include <cstring>'
+strcpy: '#include <cstring>'
+strcspn: '#include <cstring>'
+streambuf:
+  namespace: std
+streamoff:
+  namespace: std
+streampos:
+  namespace: std
+streamsize:
+  namespace: std
+strerror: '#include <cstring>'
+strftime: '#include <ctime>'
+string:
+  namespace: std
+stringbuf:
+  namespace: std
+stringstream:
+  namespace: std
+strlen: '#include <cstring>'
+strncat: '#include <cstring>'
+strncmp: '#include <cstring>'
+strncpy: '#include <cstring>'
+strpbrk: '#include <cstring>'
+strrchr: '#include <cstring>'
+strspn: '#include <cstring>'
+strstr: '#include <cstring>'
+strtod: '#include <cstdlib>'
+strtof: '#include <cstdlib>'
+strtoimax: '#include <cinttypes>'
+strtok: '#include <cstring>'
+strtol: '#include <cstdlib>'
+strtold: '#include <cstdlib>'
+strtoll: '#include <cstdlib>'
+strtoul: '#include <cstdlib>'
+strtoull: '#include <cstdlib>'
+strtoumax: '#include <cinttypes>'
+strxfrm: '#include <cstring>'
+student_t_distribution:
+  namespace: std
+sub_match:
+  namespace: std
+subtract_with_carry_engine:
+  namespace: std
+swap:
+  namespace: std
+swap_ranges:
+  namespace: std
+swprintf: '#include <cwchar>'
+swscanf: '#include <cwchar>'
+system: '#include <cstdlib>'
+system_category:
+  namespace: std
+system_clock:
+  namespace: std::chrono
+system_error:
+  namespace: std
+tan: '#include <cmath>'
+tanh: '#include <cmath>'
+terminate:
+  namespace: std
+terminate_handler:
+  namespace: std
+tgamma: '#include <cmath>'
+this_thread:
+  namespace: std
+thrd_busy: '#include <threads.h>'
+thrd_create: '#include <threads.h>'
+thrd_current: '#include <threads.h>'
+thrd_detach: '#include <threads.h>'
+thrd_equal: '#include <threads.h>'
+thrd_error: '#include <threads.h>'
+thrd_exit: '#include <threads.h>'
+thrd_join: '#include <threads.h>'
+thrd_nomem: '#include <threads.h>'
+thrd_sleep: '#include <threads.h>'
+thrd_start_t: '#include <threads.h>'
+thrd_success: '#include <threads.h>'
+thrd_t: '#include <threads.h>'
+thrd_timedout: '#include <threads.h>'
+thrd_yield: '#include <threads.h>'
+thread:
+  namespace: std
+thread_local: '#include <threads.h>'
+throw_with_nested:
+  namespace: std
+tie:
+  namespace: std
+time: '#include <ctime>'
+time_base:
+  namespace: std
+time_get:
+  namespace: std
+time_get_byname:
+  namespace: std
+time_point:
+  namespace: std::chrono
+time_point_cast:
+  namespace: std::chrono
+time_put:
+  namespace: std
+time_put_byname:
+  namespace: std
+time_t: '#include <ctime>'
+timed_mutex:
+  namespace: std
+tmpfile: '#include <cstdio>'
+tmpnam: '#include <cstdio>'
+to_string:
+  namespace: std
+to_wstring:
+  namespace: std
+tolower: '#include <cctype>'
+toupper: '#include <cctype>'
+towctrans: '#include <cwctype>'
+towlower: '#include <cwctype>'
+towupper: '#include <cwctype>'
+transform:
+  namespace: std
+treat_as_floating_point:
+  namespace: std::chrono
+'true': '#include <cstdbool>'
+true_type:
+  namespace: std
+trunc: '#include <cmath>'
+try_lock:
+  namespace: std
+try_to_lock_t:
+  namespace: std
+tss_create: '#include <threads.h>'
+tss_delete: '#include <threads.h>'
+tss_dtor_t: '#include <threads.h>'
+tss_get: '#include <threads.h>'
+tss_set: '#include <threads.h>'
+tss_t: '#include <threads.h>'
+tuple:
+  namespace: std
+tuple_cat:
+  namespace: std
+tuple_element:
+  namespace: std
+tuple_size:
+  namespace: std
+type_index:
+  namespace: std
+type_info:
+  namespace: std
+types: '#include <ctime>'
+u16string:
+  namespace: std
+u32string:
+  namespace: std
+uint16_t: '#include <cstdint>'
+uint32_t: '#include <cstdint>'
+uint64_t: '#include <cstdint>'
+uint8_t: '#include <cstdint>'
+uint_fast16_t: '#include <cstdint>'
+uint_fast32_t: '#include <cstdint>'
+uint_fast64_t: '#include <cstdint>'
+uint_fast8_t: '#include <cstdint>'
+uint_least16_t: '#include <cstdint>'
+uint_least32_t: '#include <cstdint>'
+uint_least64_t: '#include <cstdint>'
+uint_least8_t: '#include <cstdint>'
+uintmax_t: '#include <cstdint>'
+uintptr_t: '#include <cstdint>'
+unary_negate:
+  namespace: std
+uncaught_exception:
+  namespace: std
+undeclare_no_pointers:
+  namespace: std
+undeclare_reachable:
+  namespace: std
+underflow_error:
+  namespace: std
+underlying_type:
+  namespace: std
+unexpected:
+  namespace: std
+unexpected_handler:
+  namespace: std
+ungetc: '#include <cstdio>'
+ungetwc: '#include <cwchar>'
+uniform_int_distribution:
+  namespace: std
+uniform_real_distribution:
+  namespace: std
+uninitialized_copy:
+  namespace: std
+uninitialized_copy_n:
+  namespace: std
+uninitialized_fill:
+  namespace: std
+uninitialized_fill_n:
+  namespace: std
+unique:
+  namespace: std
+unique_copy:
+  namespace: std
+unique_lock:
+  namespace: std
+unique_ptr:
+  namespace: std
+unitbuf:
+  namespace: std
+unordered_map:
+  namespace: std
+unordered_multimap:
+  namespace: std
+unordered_multiset:
+  namespace: std
+unordered_set:
+  namespace: std
+upper_bound:
+  namespace: std
+uppercase:
+  namespace: std
+use_facet:
+  namespace: std
+va_arg: '#include <cstdarg>'
+va_copy: '#include <cstdarg>'
+va_end: '#include <cstdarg>'
+va_list: '#include <cstdarg>'
+va_start: '#include <cstdarg>'
+valarray:
+  namespace: std
+vector:
+  namespace: std
+vfprintf: '#include <cstdio>'
+vfscanf: '#include <cstdio>'
+vfwprintf: '#include <cwchar>'
+vfwscanf: '#include <cwchar>'
+vprintf: '#include <cstdio>'
+vscanf: '#include <cstdio>'
+vsnprintf: '#include <cstdio>'
+vsprintf: '#include <cstdio>'
+vsscanf: '#include <cstdio>'
+vswprintf: '#include <cwchar>'
+vswscanf: '#include <cwchar>'
+vwprintf: '#include <cwchar>'
+vwscanf: '#include <cwchar>'
+wcerr:
+  namespace: std
+wchar_t: '#include <cwchar>'
+wcin:
+  namespace: std
+wclog:
+  namespace: std
+wcmatch:
+  namespace: std
+wcout:
+  namespace: std
+wcrtomb: '#include <cwchar>'
+wcscat: '#include <cwchar>'
+wcschr: '#include <cwchar>'
+wcscmp: '#include <cwchar>'
+wcscoll: '#include <cwchar>'
+wcscpy: '#include <cwchar>'
+wcscspn: '#include <cwchar>'
+wcsftime: '#include <cwchar>'
+wcslen: '#include <cwchar>'
+wcsncat: '#include <cwchar>'
+wcsncmp: '#include <cwchar>'
+wcsncpy: '#include <cwchar>'
+wcspbrk: '#include <cwchar>'
+wcsrchr: '#include <cwchar>'
+wcsrtombs: '#include <cwchar>'
+wcsspn: '#include <cwchar>'
+wcsstr: '#include <cwchar>'
+wcstod: '#include <cwchar>'
+wcstof: '#include <cwchar>'
+wcstoimax: '#include <cinttypes>'
+wcstok: '#include <cwchar>'
+wcstol: '#include <cwchar>'
+wcstold: '#include <cwchar>'
+wcstoll: '#include <cwchar>'
+wcstombs: '#include <cstdlib>'
+wcstoul: '#include <cwchar>'
+wcstoull: '#include <cwchar>'
+wcstoumax: '#include <cinttypes>'
+wcsub_match:
+  namespace: std
+wcsxfrm: '#include <cwchar>'
+wctob: '#include <cwchar>'
+wctomb: '#include <cstdlib>'
+wctrans: '#include <cwctype>'
+wctrans_t: '#include <cwctype>'
+wctype: '#include <cwctype>'
+wctype_t: '#include <cwctype>'
+weak_ptr:
+  namespace: std
+weibull_distribution:
+  namespace: std
+wfilebuf:
+  namespace: std
+wfstream:
+  namespace: std
+wifstream:
+  namespace: std
+wint_t: '#include <cwchar>'
+wios:
+  namespace: std
+wiostream:
+  namespace: std
+wistream:
+  namespace: std
+wistringstream:
+  namespace: std
+wmemchr: '#include <cwchar>'
+wmemcmp: '#include <cwchar>'
+wmemcpy: '#include <cwchar>'
+wmemmove: '#include <cwchar>'
+wmemset: '#include <cwchar>'
+wofstream:
+  namespace: std
+wostream:
+  namespace: std
+wostringstream:
+  namespace: std
+wprintf: '#include <cwchar>'
+wregex:
+  namespace: std
+ws:
+  namespace: std
+wscanf: '#include <cwchar>'
+wsmatch:
+  namespace: std
+wssub_match:
+  namespace: std
+wstreambuf:
+  namespace: std
+wstreampos:
+  namespace: std
+wstring:
+  namespace: std
+wstringbuf:
+  namespace: std
+wstringstream:
+  namespace: std
+xor: '#include <ciso646>'
+xor_eq: '#include <ciso646>'
